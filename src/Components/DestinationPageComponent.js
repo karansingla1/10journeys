@@ -37,7 +37,6 @@ class DestinationPage extends Component{
 
 	handleChange(event) {
     this.setState({datevalue: event.target.value});
-    console.log(this.state.datevalue);
   }
 
 	render() {

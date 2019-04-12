@@ -50,10 +50,9 @@ class Main extends Component {
 				</>
 			)
 		}
-			else{ return ( <>yuy </>) }
+			else{ return ( <></>) }
 					
 		}
-
 		const TripWithID = ({match}) => {
 
 			const trip = this.props.trips.filter((trip) => 
