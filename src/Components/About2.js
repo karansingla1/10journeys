@@ -49,7 +49,7 @@ class About2 extends Component {
 					<div className = "col-11 offset-1 about-us-content">
 						<p>We know travel is not just about visiting the places.
 						 We know it's is not about sightseeing. We know it's not about 
-						 an escape or a get. We know it's much more.</p>
+						 an escape or a getaway. We know it's much more.</p>
 
 						<p>Maybe, it's about rekindling the sense of wonder and curiosity
 						 which each one of us has. Maybe, it's about appreciating the beauty 

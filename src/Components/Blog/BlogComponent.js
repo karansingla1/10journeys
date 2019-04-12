@@ -26,9 +26,9 @@ class Blog extends Component {
   componentDidMount() {
     fetch("http://public-api.wordpress.com/rest/v1/sites/10journeys.wordpress.com/posts")
     .then(response => response.json())
-      .then(response => {
+      .then(json => {
         this.setState({
-          posts: response.posts
+          posts: json.posts
         })
       })
   }
