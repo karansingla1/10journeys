@@ -2,7 +2,7 @@
   "name": "bornexplorers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://10journeys.com",
+  "homepage": "http://10journeys.com/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "4.0.0",
