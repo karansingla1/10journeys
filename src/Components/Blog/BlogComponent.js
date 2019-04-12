@@ -16,13 +16,21 @@ class Blog extends Component {
 		}
 	}
 
-	componentDidMount() {
+	/*componentDidMount() {
     axios.get("http://public-api.wordpress.com/rest/v1/sites/10journeys.wordpress.com/posts")
       .then(res => {
         this.setState({posts: res.data.posts});
-        console.log(this.state.posts);
       })
       .catch(error => console.log(error));
+  }*/
+  componentDidMount() {
+    fetch("http://public-api.wordpress.com/rest/v1/sites/10journeys.wordpress.com/posts")
+    .then(response => response.json())
+      .then(response => {
+        this.setState({
+          posts: response.posts
+        })
+      })
   }
 
 
