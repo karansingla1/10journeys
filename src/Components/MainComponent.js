@@ -65,7 +65,7 @@ class Main extends Component {
 					</>
 				)	
 			}	
-			else{ return ( <>yuy </>) }				
+			else{ return ( <></>) }				
 		}
 
 		return(
