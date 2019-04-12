@@ -12,7 +12,7 @@ import {
   DropdownItem } from 'reactstrap'; 
   import {NavLink} from 'react-router-dom';
 
-class MyNavbar extends Component{
+class MyNavbar1 extends Component{
 	constructor(props) {
 		super(props);
 
@@ -47,21 +47,18 @@ class MyNavbar extends Component{
 		return (
 			<div>
 				<Navbar color="light" light expand="md">
-		          <NavbarBrand href="/">10Journeys</NavbarBrand>
+		          <NavbarBrand className = 'brand-name' href="/"><img src="/logo2.jpg" className="img-fluid img-responsive brand-image"/></NavbarBrand>
 		          <NavbarToggler onClick={this.toggle} />
 		          <Collapse isOpen={this.state.isOpen} navbar>
 		            <Nav className="ml-auto" navbar>
 		              <NavItem>
+		              	<NavLink className ='nav-link' to="/destinations/mcleodganj/">Mcleodganj</NavLink>
+		              </NavItem>
+		              
+		              <NavItem>
 		                <NavLink className ='nav-link' to="/blog/">Blog</NavLink>
 		              </NavItem>
-		              <UncontrolledDropdown nav inNavbar>
-		                <DropdownToggle nav caret>
-		                  Destinations
-		                </DropdownToggle>
-		                <DropdownMenu right>
-		                  {destinationItems}
-		                </DropdownMenu>
-		              </UncontrolledDropdown>
+		              
 		              <NavItem>
 		                <NavLink className = 'nav-link' to="/aboutus/">About us</NavLink>
 		              </NavItem>
@@ -73,4 +70,4 @@ class MyNavbar extends Component{
 	};
 }
 
-export default MyNavbar;
+export default MyNavbar1;
