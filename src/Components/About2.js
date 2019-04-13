@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, CardLink,Col } from 'reactstrap';
+import Footer from './FooterComponent.js';
+
 
 class About2 extends Component {
-
-
 	render() {
 		return (
 			<>
@@ -20,7 +20,7 @@ class About2 extends Component {
 
 			<div className = "container">
 				<div className="row">
-					<span className = 'col-1'><i class="fa fa-quote-left fa-lg fa-pull-left fa-border" aria-hidden="true"></i></span>				
+					<span className = 'col-1'><i className="fa fa-quote-left fa-lg fa-pull-left fa-border" aria-hidden="true"></i></span>				
 					<h4 className='col-11'>“Blessed are the curious for they shall have adventures.”</h4>
 				</div>
 
@@ -96,7 +96,6 @@ class About2 extends Component {
 						your fears and at the same time, doing it all responsibly.</p>
 					</div>
 				</div>	
-
 				<div className="row about-us-section">
 					<div className=" col-11 offset-1 about-us-heading">
 						Leave a positive impact
@@ -147,13 +146,13 @@ class About2 extends Component {
 					<div className = "col-11 offset-1 about-us-content">
 						<div className='row'>
 
-							<div class="col-12 col-md-6 mb-4">
-						      <div class="card border-0 shadow">
-						      	<h5 class="card-title text-center mb-0">Karan, Co-Founder</h5>
+							<div className="col-12 col-md-6 mb-4">
+						      <div className="card border-0 shadow">
+						      	<h5 className="card-title text-center mb-0">Karan, Co-Founder</h5>
 						      	<br/>
-						        <img src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http://2.bp.blogspot.com/-bie9zV2YM4I/UhcOOw39vzI/AAAAAAAAAGI/LRkRkqgU194/s1600/13708_4075968819357_1849976629_n.jpg&container=blogger&gadget=a&rewriteMime=image/*" class="card-img-top" alt="..."/>
-						        <div class="card-body">
-						          	<div class="card-text text-black-50">
+						        <img src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http://2.bp.blogspot.com/-bie9zV2YM4I/UhcOOw39vzI/AAAAAAAAAGI/LRkRkqgU194/s1600/13708_4075968819357_1849976629_n.jpg&container=blogger&gadget=a&rewriteMime=image/*" className="card-img-top" alt="..."/>
+						        <div className="card-body">
+						          	<div className="card-text text-black-50">
 							          	<p>Every time he reads a story of exploration, every single time! He has an irresistible urge to explore the 
 							          	 unknown, for no ulterior motive.</p>
 							          	 <p>
@@ -167,12 +166,12 @@ class About2 extends Component {
 						    </div>
 
 						    <div className="col-12 col-md-6 mb-4">
-						      <div class="card border-0 shadow">
-						      	<h5 class="card-title text-center mb-0">Romit, Co-Founder</h5>
+						      <div className="card border-0 shadow">
+						      	<h5 className="card-title text-center mb-0">Romit, Co-Founder</h5>
 						      	<br/>
-						        <img src="http://static1.squarespace.com/static/5899708ee3df288fed2979ab/t/5c5d91ecb208fcb27d09a61b/1549636078416/studlogo_box.jpg?format=1500w" class="card-img-top" alt="..."/>
-						        <div class="card-body">
-						          	<div class="card-text text-black-50">
+						        <img src="http://static1.squarespace.com/static/5899708ee3df288fed2979ab/t/5c5d91ecb208fcb27d09a61b/1549636078416/studlogo_box.jpg?format=1500w" className="card-img-top" alt="..."/>
+						        <div className="card-body">
+						          	<div className="card-text text-black-50">
 							          	
 									</div>
 						        </div>
@@ -182,9 +181,8 @@ class About2 extends Component {
 					    </div>
 					</div>
 				</div>
-
-
 			</div>
+			<Footer/>
 			</>
 		)
 	}

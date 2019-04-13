@@ -67,7 +67,7 @@ class DestinationPage extends Component{
 						<div className='col-auto mt-3'><h2>{(city.name).toUpperCase()}</h2></div>
 					</div>
 					<div className="row mb-5 ml-3 justify-content-center">
-						<label for="datevalue" className='cominglabel col-auto offset-sm-1'>I am coming on</label>
+						<label htmlFor="datevalue" className='cominglabel col-auto offset-sm-1'>I am coming on</label>
 	          			<input className='ml-3 ml-sm-0 col-auto' id = "today" type="date" name="datevalue"
 	          			value={this.state.datevalue} onChange={this.handleChange} min={(new Date).toISOString().substring(0,10)}/>
 	          		</div>	

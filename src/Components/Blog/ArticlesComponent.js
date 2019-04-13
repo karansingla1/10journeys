@@ -35,14 +35,12 @@ function ArticlePreview(props) {
 					        <CardImg top width="100%" src={props.post.featured_image} alt="Card image cap" />
 					        <CardBody>
 					          <CardTitle>{props.post.title}</CardTitle>
-					          <CardText><p className="articleExcerpt" dangerouslySetInnerHTML={{__html: props.post.excerpt}} /></CardText>
+					          <CardText className="articleExcerpt" dangerouslySetInnerHTML={{__html: props.post.excerpt}} />
 					          
 						         <div className='row'>
-							          <CardLink> 
-							          	<Link to = {"/blog/" + props.post.ID}>
+							          	<CardLink to = {"/blog/" + props.post.ID}>
 							          	<span className='btn btn-warning mr-3'>Read more!</span>
-							          	</Link>					          	
-							          </CardLink>
+							          	</CardLink>
 							          
 
 							          <div className = 'col-auto'> 
@@ -75,10 +73,7 @@ function Articles(props) {
 
 	const preview = props.posts.map(post => {
 				return(
-				<>
-					<ArticlePreview post = {post} />
-				</>
-				)
+					<ArticlePreview key = {post.ID} post = {post} />				)
 			}
 		)
 	return (

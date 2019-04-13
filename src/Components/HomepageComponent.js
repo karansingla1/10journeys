@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Footer from './FooterComponent.js';
 
 
 
@@ -12,6 +13,7 @@ class Homepage extends Component {
 
 	render() {
 		return (
+			<>
 				<div className='bg'>
 					<div className = 'container'>
 						<div className='row justify-content-center'>
@@ -37,6 +39,8 @@ class Homepage extends Component {
 						</div>
 					</div>
 				</div>
+				<Footer />
+			</>	
 			)
 	}
 
