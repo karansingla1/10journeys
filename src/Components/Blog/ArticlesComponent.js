@@ -38,9 +38,9 @@ function ArticlePreview(props) {
 					          <CardText className="articleExcerpt" dangerouslySetInnerHTML={{__html: props.post.excerpt}} />
 					          
 						         <div className='row'>
-							          	<CardLink to = {"/blog/" + props.post.ID}>
+							          	<Link className="ml-2" to = {"/blog/" + props.post.ID}>
 							          	<span className='btn btn-warning mr-3'>Read more!</span>
-							          	</CardLink>
+							          	</Link>
 							          
 
 							          <div className = 'col-auto'> 
