@@ -25,12 +25,12 @@ const Fullpage = () => (
 				<div className="content-top">
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-12 text-center mt-5 tagline1">
+							<div className="col-12 text-center mt-5 mb-5 tagline1">
 							Connect. Immerse. Learn
 							</div>
 						</div>
 
-						<div className="row justify-content-center tagline2">
+						<div className="row justify-content-center mb-5 tagline2">
 							<div className="col-12 text-center ">
 							Life is about meaningful relationships, immersive experiences and learning.
 							</div>
