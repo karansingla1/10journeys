@@ -20,18 +20,19 @@ const Fullpage = () => (
           <div className="section section1">
 	          	<video data-keepplaying pre-load="none" autoPlay muted loop id="myVideo">
 				  <source src="/imgs/homepage/section1.mp4" type="video/mp4" />
+				  <img src="/imgs/homepage/photogallery/img17.jpg" alt="something"/>
 				</video>
 
 				<div className="content-top">
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-12 text-center mt-5 mb-5 tagline1">
+							<div className="col-12  text-center mt-5 mb-3 tagline1">
 							Connect. Immerse. Learn
 							</div>
 						</div>
 
-						<div className="row justify-content-center mb-5 tagline2">
-							<div className="col-12 text-center ">
+						<div className="row justify-content-center mb-3 tagline2">
+							<div className="col-12 col-sm-8 col-md-6 col-lg-5 text-center ">
 							Life is about meaningful relationships, immersive experiences and learning.
 							</div>
 						</div>
