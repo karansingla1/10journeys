@@ -118,8 +118,8 @@ const Fullpage = () => (
           					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img1.jpg"/></div>
           					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img2.jpg"/></div>
           					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img3.jpg"/></div>
-          					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img4.jpg"/></div>
-          					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img5.jpg"/></div>
+          					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img4.JPG"/></div>
+          					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img5.JPG"/></div>
           					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img6.jpg"/></div>
           					</div>	
           			</div>
