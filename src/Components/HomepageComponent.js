@@ -106,7 +106,7 @@ const Fullpage = () => (
           </div>
 
           <div className="section section3">
-          		<div className="row justify-content-center">
+          		<div className="row justify-content-center gallery-container">
           			<div className="col-12 align-self-center" id="glimpses" >
           				Some glimpses from our trips.
           			</div>
