@@ -13,6 +13,7 @@ import About2 from './About2.js'
 
 
 
+
 const mapStatetoProps = state => {
 	return {
 		cities: state.cities,
@@ -70,8 +71,7 @@ class Main extends Component {
 
 		return(
 			<> 
-
-			<MyNavbar1 destinations={this.props.cities}/>
+			<MyNavbar1/>
 			<Switch>
 				<Route path = '/home' component={Homepage}/>
 				<Route exact path = '/destinations/:name' 
@@ -79,10 +79,10 @@ class Main extends Component {
 				<Route path = '/blog' component = {Blog} />
 				<Route path = '/aboutus' component={About2}/>
 				<Route exact path = '/destinations/:name/:tripID'
-						component={TripWithID} />
-							
+						component={TripWithID} />	
 				<Redirect to='/home' />	
 			</Switch>
+			<Footer/>
 			</>
 		)
 

@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import {Route, Switch, Redirect, withRouter} from 'react-router-dom';
+import {connect} from 'react-redux';
+
 import {
   Collapse,
   Navbar,
@@ -11,6 +14,14 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap'; 
   import {NavLink} from 'react-router-dom';
+
+
+  const mapStatetoProps = state => {
+	return {
+		destinations: state.cities,
+		trips: state.trips,
+			}
+}
 
 class MyNavbar1 extends Component{
 	constructor(props) {
@@ -46,8 +57,10 @@ class MyNavbar1 extends Component{
 
 		return (
 			<div>
-				<Navbar color="light" light expand="md">
-		          <NavbarBrand className = 'brand-name' href="/"><img src="/logo2.jpg" className="img-fluid img-responsive brand-image"/></NavbarBrand>
+				<Navbar className = " mynavbar fixed-top" color="light" light  expand="md">
+		          <NavbarBrand href="/"><img src="/logo7.png" className="img-fluid img-responsive brand-image"/>
+		          	<span className="brand-name"></span>
+		          </NavbarBrand>
 		          <NavbarToggler onClick={this.toggle} />
 		          <Collapse isOpen={this.state.isOpen} navbar>
 		            <Nav className="ml-auto" navbar>
@@ -69,5 +82,4 @@ class MyNavbar1 extends Component{
 		);
 	};
 }
-
-export default MyNavbar1;
+export default withRouter(connect(mapStatetoProps)(MyNavbar1));

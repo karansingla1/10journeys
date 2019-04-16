@@ -5,6 +5,8 @@ import {UncontrolledCarousel} from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, CardLink,Col } from 'reactstrap';
 import TripsShow from './TripsShowComponent.js'
+import MyNavbar1 from './MyNavbar1.js';
+
 
 const mapStateToProps = state => {
   return {
