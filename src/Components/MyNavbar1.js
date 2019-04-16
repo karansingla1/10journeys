@@ -57,7 +57,7 @@ class MyNavbar1 extends Component{
 
 		return (
 			<div>
-				<Navbar className = " mynavbar fixed-top" color="light" light  expand="md">
+				<Navbar className = "mynavbar fixed-top" color="light" light  expand="md">
 		          <NavbarBrand href="/"><img src="/logo7.png" className="img-fluid img-responsive brand-image"/>
 		          	<span className="brand-name"></span>
 		          </NavbarBrand>

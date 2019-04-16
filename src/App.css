@@ -8,6 +8,9 @@ body{
   font-size: 13pt;
 }
 
+.mynavbar{
+  background: rgba(0, 0, 0, 0.5);
+}
 .bg {
   /* The image used */
   backgroud-image: url("https://10journeys.wordpress.com/wp-content/themes/a8c/domain-landing-page/img/5.jpg");
@@ -183,7 +186,8 @@ a:hover{
 }
 
 .section1{
-  padding:50px;
+  background-image: url(/imgs/homepage/photogallery/img18.jpg);
+  background-size:cover;
 }
 
 .section2{
@@ -247,7 +251,7 @@ a:hover{
 }
 
 .image1 {
-  opacity: 0.8;
+  opacity: 0.9;
   display: block;
   width: 100%;
   height: auto;
@@ -354,8 +358,7 @@ a:hover{
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  height: calc(100% - 134px);
+  height: calc(100% - 76px);
   object-fit: cover;
 }
-
 

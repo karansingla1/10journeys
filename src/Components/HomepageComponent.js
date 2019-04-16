@@ -18,9 +18,9 @@ const Fullpage = () => (
       return (
         <ReactFullpage.Wrapper id="fullpage">
           <div className="section section1">
-	          	<video data-keepplaying pre-load="none" autoPlay muted loop id="myVideo">
+	          	<video data-keepplaying pre-load="none" autoPlay muted loop id="myVideo"
+	          		className='d-none d-md-block'>
 				  <source src="/imgs/homepage/section1.mp4" type="video/mp4" />
-				  <img src="/imgs/homepage/photogallery/img17.jpg" alt="something"/>
 				</video>
 
 				<div className="content-top">
@@ -31,8 +31,8 @@ const Fullpage = () => (
 							</div>
 						</div>
 
-						<div className="row justify-content-center mb-3 tagline2">
-							<div className="col-12 col-sm-8 col-md-6 col-lg-5 text-center ">
+						<div className="row justify-content-center mb-2 tagline2">
+							<div className="col-12 col-sm-12 col-md-6 col-lg-5 text-center ">
 							Life is about meaningful relationships, immersive experiences and learning.
 							</div>
 						</div>
@@ -42,10 +42,8 @@ const Fullpage = () => (
 							Travel brings it all together!
 							</div>
 						</div>
-
 					</div>
-
-				</div>  			 
+				</div>			 
           </div>
 
 
