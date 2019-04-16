@@ -159,6 +159,7 @@ a:hover{
 .section{
   background-size: cover;
 
+
 }
 
 .section1{
@@ -302,6 +303,10 @@ a:hover{
 .galleryimage{
   width: 100%;
   padding-bottom: 1px
+}
+
+.gallery-container{
+  width: 100%;
 }
 
 #currently{

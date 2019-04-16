@@ -107,12 +107,12 @@ const Fullpage = () => (
 
           <div className="section section3">
           		<div className="row justify-content-center">
-          			<div className="col-auto align-self-center" id="glimpses" >
-          				Some Glimpses from our trips.
+          			<div className="col-12 align-self-center" id="glimpses" >
+          				Some glimpses from our trips.
           			</div>
           		</div>
 
-          		<div className="row">
+          		<div className="row gallery-container">
           			<div className="col-12 col-md-4 gallery">
           				<div className='row'>
           					<div className="col-12"><img className="galleryimage" src="/imgs/homepage/photogallery/img1.jpg"/></div>
