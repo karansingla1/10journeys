@@ -17,13 +17,34 @@ const Fullpage = () => (
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper id="fullpage">
-
           <div className="section section1">
+	          	<video data-keepplaying pre-load="none" autoPlay muted loop id="myVideo">
+				  <source src="/imgs/homepage/section1.mp4" type="video/mp4" />
+				</video>
 
-          	<p id = "section1-1">
-				Life is about learning, immersive experiences and meaningful
-				relationships. </p>
-			<p id="section1-2">	Travel brings it all together </p>    
+				<div className="content-top">
+					<div className="container">
+						<div className="row justify-content-center">
+							<div className="col-12 text-center mt-5 tagline1">
+							Connect. Immerse. Learn
+							</div>
+						</div>
+
+						<div className="row justify-content-center tagline2">
+							<div className="col-12 text-center ">
+							Life is about meaningful relationships, immersive experiences and learning.
+							</div>
+						</div>
+
+						<div className="row justify-content-center tagline3">
+							<div className="col-12 text-center ">
+							Travel brings it all together!
+							</div>
+						</div>
+
+					</div>
+
+				</div>  			 
           </div>
 
 
