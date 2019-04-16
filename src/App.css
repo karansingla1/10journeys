@@ -307,6 +307,7 @@ a:hover{
 
 .gallery-container{
   width: 100%;
+  margin: 0px;
 }
 
 #currently{

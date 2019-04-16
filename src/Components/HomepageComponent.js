@@ -106,6 +106,7 @@ const Fullpage = () => (
           </div>
 
           <div className="section section3">
+          	<div className="container">
           		<div className="row justify-content-center gallery-container">
           			<div className="col-12 align-self-center" id="glimpses" >
           				Some glimpses from our trips.
@@ -147,6 +148,7 @@ const Fullpage = () => (
           			</div>
           		</div>	
           	</div>	
+          </div>	
         </ReactFullpage.Wrapper>
       );
     }}
