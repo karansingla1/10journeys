@@ -25,7 +25,7 @@ class TripDetails extends Component {
 
 		return(
 			<>
-			<div> <UncontrolledCarousel items= {trip.slides}/> </div>
+			<div className="page-top"> <UncontrolledCarousel items= {trip.slides}/> </div>
 			<div className = "container">
 				<div className="row trip-info">
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Starts at {trip.start_location}</div>

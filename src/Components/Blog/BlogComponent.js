@@ -55,11 +55,12 @@ class Blog extends Component {
 
   		return(
   			<>
-        
+        <div className="page-top">
         <Switch>
   				<Route exact path = '/blog' component = { () =><Articles posts = {this.state.posts}/>} />
           <Route exact path = '/blog/:postID' component = {postwithID} />
           </Switch>
+          </div>
   			</>	
   		)};
   	

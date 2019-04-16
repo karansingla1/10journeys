@@ -9,7 +9,7 @@ class About2 extends Component {
 	render() {
 		return (
 			<>
-			<div>
+			<div className="page-top">
 		      <Jumbotron fluid>
 		        <Container className = "container" fluid>
 		          <h1 className="display-3">Our Story</h1>
@@ -182,7 +182,6 @@ class About2 extends Component {
 					</div>
 				</div>
 			</div>
-			<Footer/>
 			</>
 		)
 	}

@@ -65,15 +65,15 @@ class MyNavbar1 extends Component{
 		          <Collapse isOpen={this.state.isOpen} navbar>
 		            <Nav className="ml-auto" navbar>
 		              <NavItem>
-		              	<NavLink className ='nav-link' to="/destinations/mcleodganj/">Mcleodganj</NavLink>
+		              	<NavLink className ='nav-link' to="/destinations/mcleodganj/" onClick={this.toggle}>Mcleodganj</NavLink>
 		              </NavItem>
 		              
 		              <NavItem>
-		                <NavLink className ='nav-link' to="/blog/">Blog</NavLink>
+		                <NavLink className ='nav-link' to="/blog/" onClick={this.toggle}>Blog</NavLink>
 		              </NavItem>
 		              
 		              <NavItem>
-		                <NavLink className = 'nav-link' to="/aboutus/">About us</NavLink>
+		                <NavLink className = 'nav-link' to="/aboutus/" onClick={this.toggle}>About us</NavLink>
 		              </NavItem>
 		            </Nav>
 		          </Collapse>

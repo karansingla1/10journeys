@@ -62,7 +62,7 @@ class DestinationPage extends Component{
 
 		return(
 			<>
-			<div>
+			<div className="page-top">
 				<UncontrolledCarousel items= {slides}/>
 				<div className='container'> 
 					<div className = 'row mb-5 justify-content-center'> 

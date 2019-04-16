@@ -28,7 +28,7 @@ import {
 function ArticlePreview(props) {
 
 	return (
-		<div className="col-10 col-sm-8 col-md-6 col-lg-4"> 
+		<div className="col-10 col-sm-8 col-md-6 col-lg-4 mb-4"> 
 			<div className="article">
 
 			<Card>
@@ -87,7 +87,7 @@ function Articles(props) {
 	          </Container>
 	        </Jumbotron>
 			<div className='container'>
-			<div className='row mt-5 mb-5'>
+			<div className='row mt-5 mb-5 justify-content-center'>
 				{preview}
 			</div>
 			</div>
