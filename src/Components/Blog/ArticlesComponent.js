@@ -44,19 +44,19 @@ function ArticlePreview(props) {
 							          
 
 							          <div className = 'col-auto'> 
-							          <FacebookShareButton className="row" url = {"10journeys.com/blog" + props.post.ID}>
+							          <FacebookShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID}>
 							          <FacebookIcon size={42} round={true} />
 						              </FacebookShareButton>
 						              </div>
 
 						              <div className = 'col-auto'> 
-							          <TwitterShareButton className="row" url = {"10journeys.com/blog" + props.post.ID}>
+							          <TwitterShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID}>
 							          <TwitterIcon size={42} round={true} />
 						              </TwitterShareButton>
 						              </div>
 
 						              <div className = 'col-auto'> 
-							          <WhatsappShareButton className="row" url = {"10journeys.com/blog" + props.post.ID}>
+							          <WhatsappShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID}>
 							          <WhatsappIcon size={42} round={true} />
 						              </WhatsappShareButton>
 						              </div>

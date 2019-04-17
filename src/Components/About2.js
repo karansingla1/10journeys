@@ -153,13 +153,7 @@ class About2 extends Component {
 						        <img src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http://2.bp.blogspot.com/-bie9zV2YM4I/UhcOOw39vzI/AAAAAAAAAGI/LRkRkqgU194/s1600/13708_4075968819357_1849976629_n.jpg&container=blogger&gadget=a&rewriteMime=image/*" className="card-img-top" alt="..."/>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
-							          	<p>Every time he reads a story of exploration, every single time! He has an irresistible urge to explore the 
-							          	 unknown, for no ulterior motive.</p>
-							          	 <p>
-							          	 During his time at IIT Delhi, he designed and led treks to offbeat locations. 
-							          	 He later designed creative math and tech learning experiences for Children as an educator. 
-										</p>
-										<p> And then, it was time for 10Journeys. </p>
+							          	<p className="text-center"> IIT Delhi Graduate, TFI Alumni with an experience in designing experiences. </p>
 									</div>
 						        </div>
 						      </div>

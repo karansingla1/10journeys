@@ -11,6 +11,7 @@ body{
 .mynavbar{
   background: rgba(0, 0, 0, 0.5);
 }
+
 .bg {
   /* The image used */
   backgroud-image: url("https://10journeys.wordpress.com/wp-content/themes/a8c/domain-landing-page/img/5.jpg");
@@ -128,7 +129,7 @@ a:hover{
 
 .nav-link{
   font-size: 20px;
-  color: black;
+  color: white !important;
   font-weight: bold;
 
 }
@@ -199,6 +200,7 @@ a:hover{
 
 .section3{
   text-align: center;
+  background: rgba(251, 255, 158, 0.1);
 }
 
 #section1-1{
@@ -286,18 +288,18 @@ a:hover{
 
 .middle-text {
   background-color: white ;
-  color: green;
-  font-size: 3vmax;
-  padding: 16px 32px;
+  color: maroon;
+  font-size: 24px;
+  padding: 5px 0px 15px 0;
   font-weight: bold;
 }
 
 .homepage-button{
   width: 100%;
   pading: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  background-color: darkgreen;
+  background-color: #cc1655;
   color: white;
   text-align: center;
   border-radius: 15px;
@@ -352,13 +354,19 @@ a:hover{
 
 .content-top {
   position: absolute;
-  top: 76px;
+  top: 0px;
   left: 0;
   z-index: 1;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  height: calc(100% - 76px);
+  height: calc(100% - 0px);
   object-fit: cover;
+  padding-top: 80px;
 }
 
+@media (min-width: 768px) {
+   .content-top {
+      padding-top: 200px;
+  }
+}

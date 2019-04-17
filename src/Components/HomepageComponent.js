@@ -26,7 +26,7 @@ const Fullpage = () => (
 				<div className="content-top">
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-12  text-center mt-5 mb-3 tagline1">
+							<div className="col-12  text-center mb-3 tagline1">
 							Connect. Immerse. Learn
 							</div>
 						</div>
@@ -49,12 +49,12 @@ const Fullpage = () => (
 
           <div className="section section2">
           	<div className="container">
-	          	<div className="row">
-		          	<div className='col-12 col-md-4'>
+	          	<div className="row justify-content-center">
+		          	<div className='col-3 col-md-2 col-lg-1 mt-5'>
 		            	<img src='/logo6.png' className="message-image img-responsive img-fluid"/>
 		            </div>
 		             
-		             <div className="col-12 col-md align-self-end">
+		             <div className="col-12 align-self-end">
 			          	<div id="we_design">
 			          		We design immersive local experiences and journeys which ignite your
 			          		curiosity and creativity. 
@@ -69,50 +69,50 @@ const Fullpage = () => (
 	            </div>
 
 	            <div className="row" id="experience-images">
-	            	<div className="col-12 col-sm-6 container1">
+	            	<div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img2.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div className="middle">
+					  <div classNme="middle">
 					    <div className="middle-text">Explore a new way of life</div>
 					  </div>
-				  </div>
+				    </div>
 
-				  <div className="col-12 col-sm-6 container1">
+				  <div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img1.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div className="middle">
+					  <div clasName="middle">
 					    <div className="middle-text">Make new friends</div>
 					  </div>
 				  </div>
 
-				  <div className="col-12 col-sm-6 container1">
+				  <div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img3.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div className="middle">
+					  <div classNme="middle">
 					    <div className="middle-text">Learn new skills</div>
 					  </div>
 				  </div>
 
-				  <div className="col-12 col-sm-6 container1">
+				  <div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img4.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div className="middle">
+					  <div classNme="middle">
 					    <div className="middle-text">Create something</div>
 					  </div>
 				  </div>
 				</div>
 
 				<div className="row justify-content-center ">
-					<div className="col-12 col-sm-6 col-md-5 homepage-button-container">
+					<div className="col-12 col-sm-6 col-md-5 col-lg-4 homepage-button-container">
 						<Link to ='/blog/'>
-							<div className='homepage-button btn btn-success '>Read stories</div>
+							<div className='homepage-button btn  '>Read stories</div>
 						</Link> 
 					</div>
 
-					<div className="col-12 col-sm-6 col-md-5 homepage-button-container">
+					<div className="col-12 col-sm-6 col-md-5 col-lg-4 homepage-button-container">
 						<div className="row">
 							<Link className="col-12" to ='/destinations/mcleodganj/'>
-								<div className='homepage-button btn btn-success'>Book an experience</div>
+								<div className='homepage-button btn '>Book an experience</div>
 							</Link>
 						</div>	
 						<div className="row">
@@ -129,7 +129,7 @@ const Fullpage = () => (
           	<div className="container">
           		<div className="row justify-content-center gallery-container">
           			<div className="col-12 align-self-center" id="glimpses" >
-          				Some glimpses from our trips.
+          				Some glimpses from our past experiences.
           			</div>
           		</div>
 
