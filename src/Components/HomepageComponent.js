@@ -17,7 +17,7 @@ const Fullpage = () => (
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper id="fullpage">
-          <div className="section section1">
+          <div className="section fb-auto-height section1">
 	          	<video data-keepplaying pre-load="none" autoPlay muted loop id="myVideo"
 	          		className='d-none d-md-block'>
 				  <source src="/imgs/homepage/section1.mp4" type="video/mp4" />
