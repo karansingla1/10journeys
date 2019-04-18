@@ -150,10 +150,13 @@ class About2 extends Component {
 						      <div className="card border-0 shadow">
 						      	<h5 className="card-title text-center mb-0">Karan, Co-Founder</h5>
 						      	<br/>
-						        <img src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http://2.bp.blogspot.com/-bie9zV2YM4I/UhcOOw39vzI/AAAAAAAAAGI/LRkRkqgU194/s1600/13708_4075968819357_1849976629_n.jpg&container=blogger&gadget=a&rewriteMime=image/*" className="card-img-top" alt="..."/>
+						        <img src="/imgs/about/karan.jpg" className="card-img-top team-images" alt="..."/>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
-							          	<p className="text-center"> IIT Delhi Graduate, TFI Alumni with an experience in designing experiences. </p>
+							          	<p className="text-center"><b> IIT Delhi Graduate, TFI Alumni</b></p>
+							          	<p className="text-center"> During his time at IIT Delhi, he designed and led treks to offbeat locations. 
+							          	He later worked in the education sector, designing creative math and learning experiences for 
+							          	children as an educator. </p>
 									</div>
 						        </div>
 						      </div>
@@ -163,10 +166,13 @@ class About2 extends Component {
 						      <div className="card border-0 shadow">
 						      	<h5 className="card-title text-center mb-0">Romit, Co-Founder</h5>
 						      	<br/>
-						        <img src="http://static1.squarespace.com/static/5899708ee3df288fed2979ab/t/5c5d91ecb208fcb27d09a61b/1549636078416/studlogo_box.jpg?format=1500w" className="card-img-top" alt="..."/>
+						        <img src="/imgs/about/romit.jpg" className="card-img-top team-images" alt="..."/>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
-							          	
+							          	<p className="text-center"><b> SPA Bhopal Graduate, Urban Planner</b></p>
+							          	<p className="text-center"> Before 10Journeys, Romit used to spend his time 
+							          	exploring diverse towns and cities across India, working as an urban development consultant. 
+							          	He is interested in new perspectives of living and learning about the vast cultural diversity the world has to offer.</p>
 									</div>
 						        </div>
 						      </div>

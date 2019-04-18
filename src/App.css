@@ -9,7 +9,7 @@ body{
 }
 
 .mynavbar{
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   color: dark;
 }
 
@@ -51,20 +51,26 @@ body{
   width: 100%; 
 } 
 
+.book-button-container{
+position: fixed;
+bottom:0;
+right: 20px;
+}
+
 .im-checkout-btn {
 
   background-color: purple !important;
   font-family: 'Lato', sans-serif;
   color: white !important;
-  font-size: 30px;
+  font-size: 22px;
   line-hight: 0px;
-  padding: 3px !important;
-  height: 60px;
-  width: 100%;
-  border-radius: 0px !important;
-
-
+  padding: 10px !important;
+  height: 90px;
+  width: 90px;
+  box-shadow: 2px 2px 5px 0px black !important;
+  border-radius: 50% !important;
 }
+
 
 .im-checkout{
   max-width: 100% !important;
@@ -74,35 +80,6 @@ body{
 
 
 
-.articleTitle{
-  text-decoration: none; 
-  color: black;  
-  font-family: 'Lato', sans-serif;
-
-}
-
-.articleTitle:hover {
-  text-decoration: none;
-  font-family: 'Lato', sans-serif;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
-.articleExcerpt {
-  text-decoration: none; 
-  color: black; 
-  font-family: 'Lato', sans-serif;
-  font-size: 13pt;
-
-}
-
-.post-content img{
-  max-width: 100%;;
-  height: auto;
-  margin-bottom: 40px;
-}
 
 .about-us-section{
   padding: 20px 0 20px 0px;
@@ -118,13 +95,17 @@ a:hover{
 }
 
 .brand-image{
-  max-height: 50px;
+  max-height: 40px;
   background: rgba(256,256,256,0.5);
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 5px;
-  border-radius: 20%;
+  border-radius: 50%;
+}
 
+.nav-brand-name{
+  font-family: 'Harabara Bold', Arial, sans-serif;
+  font-size: 25px;
+  padding: 0px 0 0px 10px;
+  vertical-align: middle;
 }
 
 .brand-name{
@@ -145,10 +126,7 @@ a:hover{
   font-size: 30px;
 }
 
-.cominglabel{
-  font-size: 25px;
-  font-family: 
-}
+
 
 .trip-info {
     margin:0px auto;
@@ -348,7 +326,7 @@ a:hover{
 }
 
 .page-top{
-  margin-top:76px;
+  margin-top:66px;
 }
 
 #myVideo {
@@ -379,3 +357,11 @@ a:hover{
       padding-top: 200px;
   }
 }
+
+.team-images{
+  border-radius: 50%;
+  max-height: 200px;
+  max-width: 200px;
+  align-self: center;
+}
+

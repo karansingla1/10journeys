@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import './css/DestinationPage.css';
+import './css/blog.css';
 import Main from './Components/MainComponent';
 import {HashRouter} from 'react-router-dom';
 import {Provider} from 'react-redux';

@@ -63,18 +63,37 @@ class DestinationPage extends Component{
 		return(
 			<>
 			<div className="page-top">
+				<div  className="destination-top">
 				<UncontrolledCarousel items= {slides}/>
+				</div>
 				<div className='container'> 
-					<div className = 'row mb-5 justify-content-center'> 
-						<div className='col-auto mt-3'><h2>{(city.name).toUpperCase()}</h2></div>
+					<div className = 'row mb-2 justify-content-center'> 
+						<div className='col-auto mt-3 destination-name'><h2>{(city.name).toUpperCase()}</h2></div>
 					</div>
-					<div className="row mb-5 ml-3 justify-content-center">
-						<label htmlFor="datevalue" className='cominglabel col-auto offset-sm-1'>I am coming on</label>
-	          			<input className='ml-3 ml-sm-0 col-auto' id = "today" type="date" name="datevalue"
-	          			value={this.state.datevalue} onChange={this.handleChange} min={(new Date).toISOString().substring(0,10)}/>
-	          		</div>	
-					<TripsShow tripsForCity = {tripsForCity} city ={city}/>
-					
+
+					<div className="row">
+						<div dangerouslySetInnerHTML={{__html: city.description}} className="col-12 description"/>
+					</div>
+
+					<div className=" row mb-2 wrap">
+							<div className="col-12 col-sm-6 col-md-4 date-select">
+								<label htmlFor="datevalue" className='date-label col-12'>Select date: </label>
+			          			<input className='date-input col-12' id = "today" type="date" name="datevalue"
+			          			value={this.state.datevalue} onChange={this.handleChange} min={(new Date).toISOString().substring(0,10)}/>
+			          		</div>
+			          </div>
+					{tripsForCity.length===0 ? 
+						(	
+						<div className="no-trips mb-5"> There are no experiences available 
+						currently after your selected date. Try another date. </div>
+						):(
+							<>
+							<div className="no-trips mb-3"> Below are the experiences
+							available after your selected date. </div>
+							<TripsShow tripsForCity = {tripsForCity} city ={city}/>
+							</>
+						)
+					}	
 				</div>
 			</div>
 	     </>

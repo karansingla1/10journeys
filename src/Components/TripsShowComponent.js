@@ -57,7 +57,7 @@ class TripsShow extends Component{
 		const showDateTrips = dateTrips.map((trip1) => {
 			return(
 				
-					<div key= {trip1.id} className='col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 mb-3'>
+					<div key= {trip1.id} className='col-12 col-sm-8 col-md-8 col-lg-6 col-xl-5 mb-3'>
 						<Card>
 					        <CardImg top width="100%" src={trip1.featured_image} alt="Card image cap" />
 					        <CardBody>

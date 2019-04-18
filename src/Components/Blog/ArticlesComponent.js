@@ -28,11 +28,9 @@ import {
 function ArticlePreview(props) {
 
 	return (
-		<div className="col-10 col-sm-8 col-md-6 col-lg-4 mb-4"> 
-			<div className="article">
-
+			<div>
 			<Card>
-					        <CardImg top width="100%" src={props.post.featured_image} alt="Card image cap" />
+					        <CardImg top width="100%" src={props.post.featured_image} alt="Card image cap" className="img-fluid img-responsive blog-image" />
 					        <CardBody>
 					          <CardTitle>{props.post.title}</CardTitle>
 					          <CardText className="articleExcerpt" dangerouslySetInnerHTML={{__html: props.post.excerpt}} />
@@ -63,9 +61,7 @@ function ArticlePreview(props) {
 
 						        </div>      	
 					        </CardBody>
-				      </Card>
-          	</div>
-		</div>
+				      </Card></div>
 	)
 }
 
@@ -86,8 +82,8 @@ function Articles(props) {
 	            </p>
 	          </Container>
 	        </Jumbotron>
-			<div className='container'>
-			<div className='row mt-5 mb-5 justify-content-center'>
+			<div className='blogs-container justify-content-center'>
+			<div className='card-columns'>
 				{preview}
 			</div>
 			</div>
