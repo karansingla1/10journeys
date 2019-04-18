@@ -55,7 +55,7 @@ class About2 extends Component {
 						 which each one of us has. Maybe, it's about appreciating the beauty 
 						 and the starkly different perspectives the world has to offer.</p>
 
-						<p>Maybe, it meeting interesting people and meaningful friendships. 
+						<p>Maybe, it's about meeting interesting people and making meaningful friendships. 
 						Maybe, it's about immersing completely in a new culture. Maybe, it's 
 						about learning or creating something you never imagined before. Maybe, 
 						it's about overcoming your fears.</p>
@@ -124,7 +124,7 @@ class About2 extends Component {
 					</div>
 					<hr/>
 					<div className = "col-11 offset-1 about-us-content">
-						<p>Right now, you can be join any of the experiences we have in 
+						<p>Right now, you can join any of the experiences we have in 
 						Mcleodganj. If you are far away from the locations we are currently 
 						at, you better pack your bag (keep it light! because travel advice is
 						 in our blood) and immerse yourself in a new world. We would be super
@@ -154,9 +154,10 @@ class About2 extends Component {
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
 							          	<p className="text-center"><b> IIT Delhi Graduate, TFI Alumni</b></p>
+							          	<p className="text-center">He is an explorer at heart. He loves reading, star gazing, trekking and immersing in new learning experiences.</p>
 							          	<p className="text-center"> During his time at IIT Delhi, he designed and led treks to offbeat locations. 
 							          	He later worked in the education sector, designing creative math and learning experiences for 
-							          	children as an educator. </p>
+							          	children as an educator. </p> 	
 									</div>
 						        </div>
 						      </div>
@@ -170,9 +171,10 @@ class About2 extends Component {
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
 							          	<p className="text-center"><b> SPA Bhopal Graduate, Urban Planner</b></p>
-							          	<p className="text-center"> Before 10Journeys, Romit used to spend his time 
-							          	exploring diverse towns and cities across India, working as an urban development consultant. 
-							          	He is interested in new perspectives of living and learning about the vast cultural diversity the world has to offer.</p>
+							          	<p className="text-center">His mind and soul are always looking for meaningful conversations.
+							          	Engaging with the locals is his favorite thing to do while travelling.</p>
+							          	<p className="text-center"> The time spend exploring diverse towns and cities as an urban consultant 
+							          	guided his interest in finding new perspectives of living and learning about the vast cultural diversity the world has to offer.</p>
 									</div>
 						        </div>
 						      </div>

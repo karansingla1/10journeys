@@ -31,9 +31,10 @@ body{
 }
 
 .footer{
-    background-color: #d5eaef;
+    background:rgba(136, 140, 142, 0.25);
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color: black;
 }
 
 .row-content {

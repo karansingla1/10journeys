@@ -75,12 +75,14 @@ class DestinationPage extends Component{
 						<div dangerouslySetInnerHTML={{__html: city.description}} className="col-12 description"/>
 					</div>
 
-					<div className=" row mb-2 wrap">
-							<div className="col-12 col-sm-6 col-md-4 date-select">
-								<label htmlFor="datevalue" className='date-label col-12'>Select date: </label>
-			          			<input className='date-input col-12' id = "today" type="date" name="datevalue"
+					<div className=" row mb-2 wrap justify-content-center">
+							<div className="col-12 col-md-6 date-select ">
+								<div className='date-label-top col-12 text-center'>Book an experience!<br/></div>
+								<label htmlFor="datevalue" className='date-label col-12 col-md-4 col-lg-3'>Select date: </label>
+			          			<input className='date-input col-12 col-md-8 col-lg-5' id = "today" type="date" name="datevalue"
 			          			value={this.state.datevalue} onChange={this.handleChange} min={(new Date).toISOString().substring(0,10)}/>
 			          		</div>
+			          		
 			          </div>
 					{tripsForCity.length===0 ? 
 						(	

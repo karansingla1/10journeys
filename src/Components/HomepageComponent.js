@@ -31,14 +31,14 @@ const Fullpage = () => (
 							</div>
 						</div>
 
-						<div className="row justify-content-center mb-2 tagline2">
-							<div className="col-12 col-sm-12 col-md-6 col-lg-5 text-center ">
+						<div className="row justify-content-center ">
+							<div className="col-12 col-sm-12 col-md-6 col-lg-5 text-center mb-2 tagline2 ">
 							Life is about meaningful relationships, immersive experiences and learning.
 							</div>
 						</div>
 
-						<div className="row justify-content-center tagline3">
-							<div className="col-12 text-center ">
+						<div className="row justify-content-center ">
+							<div className="col-12 text-center tagline3">
 							Travel brings it all together!
 							</div>
 						</div>
