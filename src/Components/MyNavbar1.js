@@ -58,7 +58,7 @@ class MyNavbar1 extends Component{
 			<div>
 				<Navbar className = "mynavbar fixed-top" dark expand="md">
 		          <NavbarBrand href="/"><img src="/logo5.png" className="img-fluid img-responsive brand-image"/>
-		          <span className="nav-brand-name">10 Journeys</span>
+		          <span className="nav-brand-name">10Journeys</span>
 		          </NavbarBrand>
 		          <NavbarToggler onClick={this.toggle} />
 		          <Collapse isOpen={this.state.isOpen} navbar>

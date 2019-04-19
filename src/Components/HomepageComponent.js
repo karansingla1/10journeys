@@ -60,7 +60,7 @@ const Fullpage = () => (
 			          		curiosity and creativity. 
 			            </div>
 			          	<div id="reimagining">
-			          		We are Reimagining Travel.
+			          		We are Reimagining Travel.<br/> A new way to learn the world.
 			            </div>   
 		            </div>
 	            </div>

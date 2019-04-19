@@ -75,7 +75,7 @@ class DestinationPage extends Component{
 						<div dangerouslySetInnerHTML={{__html: city.description}} className="col-12 description"/>
 					</div>
 
-					<div className=" row mb-2 wrap justify-content-center">
+					<div className=" row mb-4 wrap justify-content-center">
 							<div className="col-12 col-md-6 date-select ">
 								<div className='date-label-top col-12 text-center'>Book an experience!<br/></div>
 								<label htmlFor="datevalue" className='date-label col-12 col-md-4 col-lg-3'>Select date: </label>

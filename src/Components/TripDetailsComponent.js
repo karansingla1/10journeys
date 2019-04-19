@@ -64,7 +64,7 @@ class TripDetails extends Component {
 
 			</div>
 
-			<div className=" book-button-container">
+			<div className= "book-button-container">
 				<a href={trip.payment_code} rel="im-checkout"
 					          data-behaviour="remote" data-style="flat" 
 					          data-text="Book Now"></a>

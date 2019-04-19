@@ -5,7 +5,7 @@ export const trips = [
 		themeName: 'Music', destinationID:0,destinationName: 'mcleodganj',link: '/mcleodganj/music/0',
 		tripDate: new Date(2019,3,19), upcoming: true, active:true,
 		featured_image: "https://support.apple.com/content/dam/edam/applecare/images/en_US/music/featured-section-support-for-itunes_2x.png",
-		payment_code: "https://www.instamojo.com/@singlakaran1994/l2024c47265004a188bf110f01146428a/",
+		payment_code: "https://www.instamojo.com/tenjourneys/test-event-e769d/	",
 		start_location:'Zostel, Mcleodganj', end_location:'GoStops', duration : '4hrs',start_time: '8 am',cost: 800,
 		inclusions: 'Snacks, Transports, Material, Tickets',
 		short_description:'',
