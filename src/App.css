@@ -95,6 +95,15 @@ right: 20px;
   font-weight: bold;
 }
 
+.about-us-content{
+  font-size: 20px;
+}
+
+.company-name{
+  font-family: 'Harabara Bold', Arial, sans-serif;
+  font-size: 30px;
+}
+
 .brand-image{
   max-height: 40px;
   background: rgba(256,256,256,0.5);

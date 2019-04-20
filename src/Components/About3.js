@@ -5,7 +5,7 @@ import { Card, CardImg, CardText, CardBody,
 import Footer from './FooterComponent.js';
 
 
-class About2 extends Component {
+class About3 extends Component {
 	render() {
 		return (
 			<>
@@ -31,71 +31,29 @@ class About2 extends Component {
 				<p><span className = "about-us-heading ">10Journeys</span> provides small 
 				 group immersive travel experiences and journeys.
 				 The idea is for you to be be able to explore your interests, gain newer 
-				 perspectives and learn the things which you are curious about,while 
+				 perspectives and learn the things which you are curious about, while 
 				 building meaningful relationships with those who travel with you, as well 
 				 as the people and the places that you visit. </p>
 				
-				<p>The fact is that <span className = "about-us-heading ">we are all born 
-				explorers!</span> We are curious to learn, we are curious to understand the world around us, we are curious to understand the people and we are immersed in the little things we do.
+				<p>The fact is that <b>we are all born 
+				explorers!</b> We are curious to learn, we are curious to understand the world around us, we are curious to understand the people and we are immersed in the little things we do.
 				We play and explore, and as a result, we learn and we create. Everything is new.</p>
-				<p>But sometimes, somewhere, in the midst 
-				of our life journey, we stop being so.we cease to see the beauty and the newness 
+				<p><b>But sometimes, somewhere, in the midst 
+				of our life journey, we stop being so.</b> We cease to see the beauty and the newness 
 				in the world. We start living and seeing life in one way 
-				and begin to believe that that's the way things are.</p> We know deep down that our 
-				true nature as well as our deepest desires are to explore, know more and understand 
+				and begin to believe that that's the way things are.</p><p> Deep down, we know that <b>our 
+				true nature as well as our deepest desires</b> are to explore, know more and understand 
 				about the world and the people, have meaningful conversations and relationships with
 				people, and being close to the nature. These are the things which bring us lasting joy 
-				and happiness.Travel gives us the opportunity to be explorers, learners and creators once again.
+				and happiness.</p><p><i>Travel gives us the opportunity to be explorers, learners and 
+				creators once again.</i></p>
 
 				</div>
-				</div>
-
-				<div className="row about-us-section">
-					<div className="col-11 offset-1 about-us-heading">
-						We are all born explorers!
-					</div>
-					<hr/>
-					<div className = "col-11 offset-1 about-us-content">
-						<p><i>We believe that we are all born explorers.</i> We are curious to learn, we 
-						are curious to understand the world around us, we are curious to understand
-						 the people and we are immersed in the little things we do. We play and explore,
-						 and as a result, we learn and we create. Everything is new.</p>
-						<p>Yet, sometimes we cease to see the beauty and the newness in the world.</p>
-						<p>Travel is a great way to experience how things can be done in so many 
-						different ways, how life can be lived in so many different ways.
-						 It gives us a chance to be explorers, creators, and learners once again.</p>
-					</div>
 				</div>
 
 				<div className="row about-us-section">
 					<div className=" col-11 offset-1 about-us-heading">
-						Why did we start 10Journeys?
-					</div>
-					<hr/>
-					<div className = "col-11 offset-1 about-us-content">
-						<p>We know travel is not just about visiting the places.
-						 We know it's is not about sightseeing. We know it's not about 
-						 an escape or a getaway. We know it's much more.</p>
-
-						<p>Maybe, it's about rekindling the sense of wonder and curiosity
-						 which each one of us has. Maybe, it's about appreciating the beauty 
-						 and the starkly different perspectives the world has to offer.</p>
-
-						<p>Maybe, it's about meeting interesting people and making meaningful friendships. 
-						Maybe, it's about immersing completely in a new culture. Maybe, it's 
-						about learning or creating something you never imagined before. Maybe, 
-						it's about overcoming your fears.</p>
-
-						<p>Maybe, it's about going back as a changed person. 
-						Maybe, it's about making the world a better place.</p>
-
-						<p>These Maybe's are what drive us and our offerings.</p>
-					</div>
-				</div>
-
-				<div className="row about-us-section">
-					<div className=" col-11 offset-1 about-us-heading">
-						What do we wish to do?
+						Creative Tourism
 					</div>
 					<hr/>
 					<div className = "col-11 offset-1 about-us-content">
@@ -112,14 +70,6 @@ class About2 extends Component {
 						<p>We wish to provide you immersive journeys across various 
 						themes which will ignite your curiosity and creativity.</p>
 
-						<p>We also love nature. We love the sanctity of snow capped 
-						mountains, and we love the seas. We love the thrill of the fast 
-						flowing rivers. Through our personal experiences, as well 
-						through what research indicates, we have come to understand that 
-						spending time and being close to nature brings a long lasting joy, 
-						fulfilment and well-being. We wish to provide you experiences 
-						which will nourish your soul, make you fitter, help you overcome 
-						your fears and at the same time, doing it all responsibly.</p>
 					</div>
 				</div>	
 				<div className="row about-us-section">
@@ -141,26 +91,6 @@ class About2 extends Component {
 
 						<p>We see how creative tourism can make travel a force for
 						 good in the world.</p>
-					</div>
-				</div>
-
-				<div className="row about-us-section">
-					<div className=" col-11 offset-1 about-us-heading">
-						What do we offer currently?
-					</div>
-					<hr/>
-					<div className = "col-11 offset-1 about-us-content">
-						<p>Right now, you can join any of the experiences we have in 
-						Mcleodganj. If you are far away from the locations we are currently 
-						at, you better pack your bag (keep it light! because travel advice is
-						 in our blood) and immerse yourself in a new world. We would be super
-						  delighted to have you here.</p>
-
-						<p>If stories satisfy your soul, keep reading our blog section.
-						 These are some of the stories that we discover on our explorations.</p>
-
-						<p>If things go well, you will see a lot more coming up here. 
-						We are extremely hopeful, and we are working hard too. </p>
 					</div>
 				</div>
 
@@ -215,4 +145,4 @@ class About2 extends Component {
 	}
 }
 
-export default About2;
+export default About3;

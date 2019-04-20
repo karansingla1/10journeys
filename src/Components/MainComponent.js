@@ -9,7 +9,7 @@ import Blog from './Blog/BlogComponent.js';
 import About from './AboutComponent.js'
 import TripDetails from './TripDetailsComponent.js';
 import MyNavbar1 from './MyNavbar1.js';
-import About2 from './About2.js'
+import About3 from './About3.js'
 
 
 
@@ -77,7 +77,7 @@ class Main extends Component {
 				<Route exact path = '/destinations/:name' 
 						component={DestinationWithName}  />	
 				<Route path = '/blog' component = {Blog} />
-				<Route path = '/aboutus' component={About2}/>
+				<Route path = '/aboutus' component={About3}/>
 				<Route exact path = '/destinations/:name/:tripID'
 						component={TripWithID} />	
 				<Redirect to='/home' />	
