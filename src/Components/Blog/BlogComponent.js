@@ -4,6 +4,7 @@ import axios from 'axios';
 import {Route, Switch, Redirect} from 'react-router-dom';
 import Blogpost from './BlogpostComponent';
 import { Jumbotron, Container } from 'reactstrap';
+import fetch from 'cross-fetch';
 
 
 class Blog extends Component {
@@ -30,7 +31,8 @@ class Blog extends Component {
         this.setState({
           posts: json.posts
         })
-      })
+      }).
+      catch(error=>console.log(error.message));
   }
 
 

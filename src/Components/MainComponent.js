@@ -40,8 +40,7 @@ class Main extends Component {
 
 	render() {
 
-		const DestinationWithName = ({match}) => {
-			
+		const DestinationWithName = ({match}) => {			
 			const city = this.props.cities.filter((city) => 
 				city.name === match.params.name)[0];
 			if (city) {
@@ -51,7 +50,7 @@ class Main extends Component {
 				</>
 			)
 		}
-			else{ return ( <></>) }
+			else{ return ( <><Homepage/></>) }
 					
 		}
 		const TripWithID = ({match}) => {
@@ -66,7 +65,8 @@ class Main extends Component {
 					</>
 				)	
 			}	
-			else{ return ( <></>) }				
+			else{ return ( <><DestinationWithName match={match}/>
+				</>) }				
 		}
 
 		return(

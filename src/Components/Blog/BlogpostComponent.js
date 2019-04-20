@@ -2,7 +2,7 @@ import React from 'react';
 import ShareButton from 'react-social-share-buttons'
 
 function Blogpost(props) {
-	if (props.post.ID === props.ID){	
+	if (props.post){	 
 		return (
 			<>
 				{props.post.featured_image ? (
