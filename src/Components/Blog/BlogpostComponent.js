@@ -5,17 +5,20 @@ function Blogpost(props) {
 	if (props.post){	 
 		return (
 			<>
+			<div className="container">
+			<div className="row">
+			<div className="col-12 col-md-8">
+				<h1 className="post-title ">{props.post.title}</h1>
 				{props.post.featured_image ? (
-              <img className= "img-fluid img-responsive" alt="article header"
+              <img className= "img-fluid img-responsive post-main-image" alt="article header"
                 src={props.post.featured_image}/>
             	) : (
               	""
             	)}
-
-				<div class = "container">
-	            	<h1 className="text-center">{props.post.title}</h1>
-					<p className ="post-content" dangerouslySetInnerHTML={{__html: props.post.content}} />
-				</div>
+	         	<div dangerouslySetInnerHTML={{__html: '<div class="post-content">' + props.post.content + '</div>'}} />
+			</div>
+			</div>
+			</div>	
 			</>
 		)
 	}
