@@ -1,27 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardLink,Col,Jumbotron, Container } from 'reactstrap';
-import { FacebookIcon,TwitterIcon,TelegramIcon,WhatsappIcon,GooglePlusIcon,LinkedinIcon,
-  PinterestIcon, RedditIcon,TumblrIcon,EmailIcon,} from 'react-share';
+  CardTitle, Jumbotron, Container } from 'reactstrap';
+import { FacebookIcon,TwitterIcon,WhatsappIcon,} from 'react-share';
 import {
   FacebookShareButton,
-  GooglePlusShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  TelegramShareButton,
   WhatsappShareButton,
-  PinterestShareButton,
-  VKShareButton,
-  OKShareButton,
-  RedditShareButton,
-  TumblrShareButton,
-  LivejournalShareButton,
-  MailruShareButton,
-  ViberShareButton,
-  WorkplaceShareButton,
-  LineShareButton,
-  EmailShareButton,
+  
 } from 'react-share';
 
 

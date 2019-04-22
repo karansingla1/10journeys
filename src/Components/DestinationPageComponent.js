@@ -1,11 +1,8 @@
 import React,{Component} from 'react';
-import {Link, withRouter } from 'react-router-dom';
+import {withRouter } from 'react-router-dom';
 import {connect} from 'react-redux';
 import {UncontrolledCarousel} from 'reactstrap';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardLink,Col } from 'reactstrap';
 import TripsShow from './TripsShowComponent.js'
-import MyNavbar1 from './MyNavbar1.js';
 
 
 const mapStateToProps = state => {
@@ -18,11 +15,6 @@ function comp(a, b) {
     return new Date(a.tripDate).getTime() - new Date(b.tripDate).getTime();
 }
 
-function dateSelected() { 
-		console.log('Hello');
-  		var x = document.getElementById("mySelect").value;
-  		document.getElementById("demo").innerHTML = "You selected: " + x;
-	}
 
 class DestinationPage extends Component{
 	constructor(props) {
@@ -47,7 +39,6 @@ class DestinationPage extends Component{
 		const city = this.props.destination;
 		const slides = city.slides;
 		var tripsForCity = this.props.trips.filter((trip)=>trip.destinationID === city.id).sort(comp);
-		const totalTrips = tripsForCity.length;
 		const today_date = new Date();
 		tripsForCity = tripsForCity.filter((trip) => trip.tripDate >= today_date || (
 			trip.tripDate.getDate()===today_date.getDate()));

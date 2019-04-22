@@ -1,15 +1,11 @@
 import React,{Component} from 'react';
-import {Route, Switch, Redirect, Link, withRouter } from 'react-router-dom';
-import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardLink,Col } from 'reactstrap';
+  CardTitle, CardSubtitle } from 'reactstrap';
 
-function comp(a, b) {
-    return new Date(a.tripDate).getTime() - new Date(b.tripDate).getTime();
-}
 
 function getDate(date) {
-	var month = new Array();
+	var month = [];
 month[0] = "January";
 month[1] = "February";
 month[2] = "March";

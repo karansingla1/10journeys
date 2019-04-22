@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
-import MyNavbar from './MyNavbar.js';
 import {Route, Switch, Redirect, withRouter} from 'react-router-dom';
 import DestinationPage from './DestinationPageComponent.js';
 import Homepage from './HomepageComponent.js';
 import {connect} from 'react-redux';
 import Footer from './FooterComponent.js';
 import Blog from './Blog/BlogComponent.js';
-import About from './AboutComponent.js'
 import TripDetails from './TripDetailsComponent.js';
 import MyNavbar1 from './MyNavbar1.js';
 import About3 from './About3.js'

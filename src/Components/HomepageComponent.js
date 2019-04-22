@@ -1,14 +1,6 @@
 import React, {Component} from 'react';
-import Footer from './FooterComponent.js';
 import ReactFullpage from '@fullpage/react-fullpage';
-import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
-import MyNavbar1 from './MyNavbar1.js';
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
 import {Link} from 'react-router-dom';
-
-const pluginWrapper = () => {
-  require('fullpage.js/vendors/scrolloverflow');
-};
 
 
 const Fullpage = () => (
@@ -72,7 +64,7 @@ const Fullpage = () => (
 	            	<div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img2.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div classNme="middle">
+					  <div>
 					    <div className="middle-text">Explore a new way of life</div>
 					  </div>
 				    </div>
@@ -80,7 +72,7 @@ const Fullpage = () => (
 				  <div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img1.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div clasName="middle">
+					  <div>
 					    <div className="middle-text">Make new friends</div>
 					  </div>
 				  </div>
@@ -88,7 +80,7 @@ const Fullpage = () => (
 				  <div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img3.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div classNme="middle">
+					  <div>
 					    <div className="middle-text">Learn new skills</div>
 					  </div>
 				  </div>
@@ -96,7 +88,7 @@ const Fullpage = () => (
 				  <div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img4.jpg" alt="Avatar" className="
 				  		img-responsive img-fluid image1" />
-					  <div classNme="middle">
+					  <div>
 					    <div className="middle-text">Create something</div>
 					  </div>
 				  </div>
