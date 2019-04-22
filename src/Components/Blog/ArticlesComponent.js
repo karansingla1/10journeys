@@ -36,7 +36,7 @@ function ArticlePreview(props) {
 					          <CardText className="articleExcerpt" dangerouslySetInnerHTML={{__html: props.post.excerpt}} />
 					          
 						         <div className='row'>
-							          	<Link className="ml-2" to = {"/blog/" + props.post.ID}>
+							          	<Link className="ml-2" to = {"/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-') }>
 							          	<span className='btn btn-warning mr-3'>Read more!</span>
 							          	</Link>
 							          

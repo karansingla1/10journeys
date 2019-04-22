@@ -51,7 +51,9 @@ class Blog extends Component {
       }
 
       else {
-        postwithID= null;
+        postwithID= () =>{
+          return(<></>)
+        }
       }
       
 
@@ -60,7 +62,7 @@ class Blog extends Component {
         <div className="page-top">
         <Switch>
   				<Route exact path = '/blog' component = { () =><Articles posts = {this.state.posts}/>} />
-          <Route exact path = '/blog/:postID' component = {postwithID} />
+          <Route path = '/blog/:postID/:postTitle' component = {postwithID} />
           </Switch>
           </div>
   			</>	
