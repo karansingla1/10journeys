@@ -3,7 +3,7 @@ import './App.css';
 import './css/DestinationPage.css';
 import './css/blog.css';
 import Main from './Components/MainComponent';
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import {Provider} from 'react-redux';
 import { ConfigureStore } from './redux/ConfigureStore.js'
 
@@ -16,11 +16,11 @@ class App extends Component {
   render() {
     return (
     	<Provider store = {store}>	
-      <HashRouter>
+      <BrowserRouter>
       <div className="App">
         <Main />
       </div>
-      </HashRouter>
+      </BrowserRouter>
       </Provider>
     );
   }
