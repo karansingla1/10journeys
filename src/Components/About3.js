@@ -30,7 +30,7 @@ class About3 extends Component {
 
 				<p><span className = "about-us-heading ">10Journeys</span> provides small 
 				 group immersive travel experiences and journeys.
-				 The idea is for you to be be able to explore your interests, gain newer 
+				 The idea is for you to be able to explore your interests, gain newer 
 				 perspectives and learn the things which you are curious about, while 
 				 building meaningful relationships with those who travel with you, as well 
 				 as the people and the places that you visit. </p>
@@ -45,8 +45,8 @@ class About3 extends Component {
 				true nature as well as our deepest desires</b> are to explore, know more and understand 
 				about the world and the people, have meaningful conversations and relationships with
 				people, and being close to the nature. These are the things which bring us lasting joy 
-				and happiness.</p><p><i>Travel gives us the opportunity to be explorers, learners and 
-				creators once again.</i></p>
+				and happiness.</p><p><i><b>Travel gives us the opportunity to be explorers, learners and 
+				creators once again.</b></i></p>
 
 				</div>
 				</div>
@@ -85,7 +85,7 @@ class About3 extends Component {
 
 						<p>Through simple choices, like choosing local homestays, sharing 
 						and learning skills, appreciating and celebrating a different way 
-						of life with the hosts, we can leave a behind a positive impact through
+						of life with the hosts, we can leave behind a positive impact through
 						 our travel. Such experiences also leave visitors with valuable memories,
 						  skill and stories. </p>
 
@@ -129,7 +129,7 @@ class About3 extends Component {
 							          	<p className="text-center"><b> SPA Bhopal Graduate, Urban Planner</b></p>
 							          	<p className="text-center">His mind and soul are always looking for meaningful conversations.
 							          	Engaging with the locals is his favorite thing to do while travelling.</p>
-							          	<p className="text-center"> The time spend exploring diverse towns and cities as an urban consultant 
+							          	<p className="text-center"> The time he spent exploring diverse towns and cities as an urban consultant 
 							          	guided his interest in finding new perspectives of living and learning about the vast cultural diversity the world has to offer.</p>
 									</div>
 						        </div>

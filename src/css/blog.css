@@ -93,3 +93,13 @@ a:hover{
   text-align: left;
   font-size: 50px;
 }
+
+.post-share{
+  background: rgba(0,0,0,0.1);
+  margin:0;
+  padding: 10px 0 10px 0;
+}
+
+.post-share-text{
+  font-size: 20px;
+}

@@ -3,13 +3,8 @@ import {Link} from 'react-router-dom';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, Jumbotron, Container } from 'reactstrap';
 import { FacebookIcon,TwitterIcon,WhatsappIcon,} from 'react-share';
-import {
-  FacebookShareButton,
-  LinkedinShareButton,
-  TwitterShareButton,
-  WhatsappShareButton,
-  
-} from 'react-share';
+import {FacebookShareButton,LinkedinShareButton,TwitterShareButton,WhatsappShareButton,
+  } from 'react-share';
 
 
 function ArticlePreview(props) {
@@ -29,19 +24,19 @@ function ArticlePreview(props) {
 							          
 
 							          <div className = 'col-auto'> 
-							          <FacebookShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID}>
+							          <FacebookShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
 							          <FacebookIcon size={42} round={true} />
 						              </FacebookShareButton>
 						              </div>
 
 						              <div className = 'col-auto'> 
-							          <TwitterShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID}>
+							          <TwitterShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
 							          <TwitterIcon size={42} round={true} />
 						              </TwitterShareButton>
 						              </div>
 
 						              <div className = 'col-auto'> 
-							          <WhatsappShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID}>
+							          <WhatsappShareButton className="row" url = {"10journeys.com/#/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
 							          <WhatsappIcon size={42} round={true} />
 						              </WhatsappShareButton>
 						              </div>
