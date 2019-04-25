@@ -57,7 +57,7 @@ class DestinationPage extends Component{
 			<>
 
 			<Helmet>
-				<title>{(city.name).charAt(0).toUpperCase()}</title>
+				<title>{(city.name).charAt(0).toUpperCase() + (city.name).slice(1)}</title>
 			</Helmet>	
 			<div className="page-top">
 				<div  className="destination-top">

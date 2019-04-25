@@ -29,15 +29,15 @@ function Blogpost(props) {
 				</div>
 
 				<FacebookShareButton className="col-auto" 
-				url = {"10journeys.com/#/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
+				url = {"10journeys.com/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
 		          <FacebookIcon size={42} round={true} />
 	              </FacebookShareButton>
 
-	              <TwitterShareButton className="col-auto" url = {"10journeys.com/#/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
+	              <TwitterShareButton className="col-auto" url = {"10journeys.com/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
 		          <TwitterIcon size={42} round={true} />
 	              </TwitterShareButton>
 
-	              <WhatsappShareButton className="col-auto" url = {"10journeys.com/#/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
+	              <WhatsappShareButton className="col-auto" url = {"10journeys.com/blog/" + props.post.ID + '/' + props.post.title.split(' ').join('-')}>
 		          <WhatsappIcon size={42} round={true} />
 	              </WhatsappShareButton>
 	            </div>  
