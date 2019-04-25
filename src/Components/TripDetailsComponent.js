@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {UncontrolledCarousel} from 'reactstrap';
+import {Helmet} from 'react-helmet';
 
 
 
@@ -24,6 +25,10 @@ class TripDetails extends Component {
 
 		return(
 			<>
+
+			<Helmet>
+				<title>{trip.title}</title>
+			</Helmet>
 			<div className="page-top"> <UncontrolledCarousel items= {trip.slides}/> </div>
 			<div className = "container">
 				<div className="row trip-info">

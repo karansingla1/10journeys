@@ -12,10 +12,10 @@ function Blogpost(props) {
 
 			<Helmet>
 	            <title>{props.post.title}</title>
-	            <meta name="description" content={props.post.excerpt} />
+	            <meta property="og:description" content={props.post.excerpt} />
 	            <meta property="og:image" content={props.post.featured_image}/>
     			<meta property="og:image:secure_url" content={props.post.featured_image}/>
-    			<meta name="title" content={props.post.title}/>
+    			<meta property="og:title" content={props.post.title}/>
 	            <meta property="og:image:alt" content={props.post.title}/>
           	</Helmet>
 

@@ -3,12 +3,16 @@ import { Jumbotron, Container } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, CardLink,Col } from 'reactstrap';
 import Footer from './FooterComponent.js';
+import {Helmet} from "react-helmet";
 
 
 class About3 extends Component {
 	render() {
 		return (
 			<>
+			<Helmet>
+	            <title>About us</title>	         
+          	</Helmet>
 			<div className="page-top">
 		      <Jumbotron fluid>
 		        <Container className = "container" fluid>

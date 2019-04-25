@@ -3,6 +3,8 @@ import {withRouter } from 'react-router-dom';
 import {connect} from 'react-redux';
 import {UncontrolledCarousel} from 'reactstrap';
 import TripsShow from './TripsShowComponent.js'
+import { Helmet } from "react-helmet";
+
 
 
 const mapStateToProps = state => {
@@ -53,6 +55,10 @@ class DestinationPage extends Component{
 
 		return(
 			<>
+
+			<Helmet>
+				<title>{(city.name).charAt(0).toUpperCase()}</title>
+			</Helmet>	
 			<div className="page-top">
 				<div  className="destination-top">
 				<UncontrolledCarousel items= {slides}/>

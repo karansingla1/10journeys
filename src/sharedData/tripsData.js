@@ -3,7 +3,7 @@ export const trips = [
 		id:0,
 		title: 'Best Music in town1',tripCaption: 'You will love this!',
 		themeName: 'Music', destinationID:0,destinationName: 'mcleodganj',link: '/mcleodganj/music/0',
-		tripDate: new Date(2019,3,22), upcoming: true, active:true,
+		tripDate: new Date(2019,3,25), upcoming: true, active:true,
 		featured_image: "https://support.apple.com/content/dam/edam/applecare/images/en_US/music/featured-section-support-for-itunes_2x.png",
 		payment_code: "https://www.instamojo.com/tenjourneys/test-event-e769d/	",
 		start_location:'Zostel, Mcleodganj', end_location:'GoStops', duration : '4hrs',start_time: '8 am',cost: 800,

@@ -5,6 +5,7 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 import Blogpost from './BlogpostComponent';
 import { Jumbotron, Container } from 'reactstrap';
 import fetch from 'cross-fetch';
+import { Helmet } from "react-helmet";
 
 
 class Blog extends Component {
@@ -59,6 +60,9 @@ class Blog extends Component {
 
   		return(
   			<>
+        <Helmet>
+          <title>Blog 10Journeys</title>
+         </Helmet> 
         <div className="page-top">
         <Switch>
   				<Route exact path = '/blog' component = { () =><Articles posts = {this.state.posts}/>} />
