@@ -15,10 +15,8 @@ function Blogpost(props) {
 	            <meta name="description" content={props.post.excerpt} />
 	            <meta property="og:image" content={props.post.featured_image}/>
     			<meta property="og:image:secure_url" content={props.post.featured_image}/>
-    			<meta property="og:title" content={props.post.title}/>
+    			<meta name="title" content={props.post.title}/>
 	            <meta property="og:image:alt" content={props.post.title}/>
-
-
           	</Helmet>
 
 			<div className="container">
