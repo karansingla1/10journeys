@@ -14,7 +14,7 @@ function ArticlePreview(props) {
 			<Card>
 					        <CardImg top width="100%" src={props.post.featured_image} alt="Card image cap" className="img-fluid img-responsive blog-image" />
 					        <CardBody>
-					          <CardTitle>{props.post.title}</CardTitle>
+					          <CardTitle><b>{props.post.title}</b></CardTitle>
 					          <CardText className="articleExcerpt" dangerouslySetInnerHTML={{__html: props.post.excerpt}} />
 					          
 						         <div className='row'>

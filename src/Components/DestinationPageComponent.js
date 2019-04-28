@@ -65,7 +65,7 @@ class DestinationPage extends Component{
 				</div>
 				<div className='container'> 
 					<div className = 'row mb-2 justify-content-center'> 
-						<div className='col-auto mt-3 destination-name'><h2>{(city.name).toUpperCase()}</h2></div>
+						<div className='col-auto mt-3 destination-name'><h2></h2></div>
 					</div>
 
 					<div className="row">

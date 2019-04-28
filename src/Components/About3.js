@@ -113,7 +113,7 @@ class About3 extends Component {
 						        <img src="/imgs/about/karan.jpg" className="card-img-top team-images" alt="..."/>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
-							          	<p className="text-center"><b> IIT Delhi Graduate, TFI Alumni</b></p>
+							          	<p className="text-center"><b> </b></p>
 							          	<p className="text-center">He is an explorer at heart. He loves reading, star gazing, trekking and immersing in new learning experiences.</p>
 							          	<p className="text-center"> During his time at IIT Delhi, he designed and led treks to offbeat locations. 
 							          	He later worked in the education sector, designing creative math and learning experiences for 
@@ -130,7 +130,7 @@ class About3 extends Component {
 						        <img src="/imgs/about/romit.jpg" className="card-img-top team-images" alt="..."/>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
-							          	<p className="text-center"><b> SPA Bhopal Graduate, Urban Planner</b></p>
+							          	<p className="text-center"><b> </b></p>
 							          	<p className="text-center">His mind and soul are always looking for meaningful conversations.
 							          	Engaging with the locals is his favorite thing to do while travelling.</p>
 							          	<p className="text-center"> The time he spent exploring diverse towns and cities as an urban consultant 
