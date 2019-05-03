@@ -21,7 +21,7 @@ function Blogpost(props) {
 
 			<div className="container">
 			<div className="row">
-			<div className="col-12 col-md-8">
+			<div className="col-12 col-md-10">
 				<h1 className="post-title ">{props.post.title}</h1>
 				<div className="row post-share mb-4">
 				<div className="col-auto align-self-center post-share-text">
@@ -44,7 +44,7 @@ function Blogpost(props) {
 
 
 				{props.post.featured_image ? (
-              <img className= "img-fluid img-responsive post-main-image" alt="article header"
+              <img className= "mb-5 img-fluid img-responsive post-main-image" alt="article header"
                 src={props.post.featured_image}/>
             	) : (
               	""

@@ -65,6 +65,10 @@ a:hover{
   width:100%;
 }
 
+.post-content{
+  margin-bottom: 70px;
+}
+
 .post-content p{
   font-family:  'Libre Baskerville', Georgia, serif;;
   font-size: 20px;
@@ -102,4 +106,9 @@ a:hover{
 
 .post-share-text{
   font-size: 20px;
+}
+
+.category-name{
+  text-align: center;
+  margin-bottom: 30px;
 }

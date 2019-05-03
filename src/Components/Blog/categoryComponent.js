@@ -47,23 +47,25 @@ function ArticlePreview(props) {
 	)
 }
 
-function Articles(props) {
+function CategoryName(props) {
+		if (props.category === "creativetourism"){
+			return (<>Creative Tourism</>);	
+		}
 
-	var exploration_posts = props.posts.filter(post => 'explorations' in (post.categories));
-	exploration_posts = exploration_posts.slice(0,4);
-	const explorations = exploration_posts.map(post => {
+		if (props.category === "explorations"){
+			return (<>Explorations</>);	
+		}
+		
+	}
+
+function Category(props) {
+
+	const preview = props.posts.map(post => {
 				return(
 					<ArticlePreview key = {post.ID} post = {post} />				)
 			}
 		)
 
-	var creativetourism_posts = props.posts.filter(post => 'creativetourism' in (post.categories));
-	creativetourism_posts = creativetourism_posts.slice(0,4);
-	const concept = creativetourism_posts.map(post => {
-				return(
-					<ArticlePreview key = {post.ID} post = {post} />				)
-			}
-		)
 	return (
 		<>
 			<Jumbotron fluid>
@@ -75,20 +77,14 @@ function Articles(props) {
 	          </Container>
 	        </Jumbotron>
 			<div className='blogs-container justify-content-center'>
-			<h1 className="category-name"> Explorations </h1>
+			<h1 className="text-center mb-4"> <CategoryName category = {props.category} /> </h1>
 			<div className='card-columns'>
-				{explorations}
+				{preview}
 			</div>
-			<div><Link to = "/blog/category/explorations" >See All </Link></div> 
-			<h1 className="category-name"> Creative tourism </h1>
-			<div className='card-columns'>
-				{concept}
-			</div>
-			<div><Link to = "/blog/category/creativetourism" >See All </Link></div>
 			</div>
 		</>	
 		)
 
 }
 
-export default Articles;
+export default Category;

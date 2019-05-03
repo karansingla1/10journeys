@@ -6,6 +6,7 @@ import Blogpost from './BlogpostComponent';
 import { Jumbotron, Container } from 'reactstrap';
 import fetch from 'cross-fetch';
 import { Helmet } from "react-helmet";
+import Category from './categoryComponent.js';
 
 
 class Blog extends Component {
@@ -58,6 +59,26 @@ class Blog extends Component {
       }
       
 
+      let blogCategory;
+      if (this.state.posts.length>0){
+          blogCategory = ({match}) => {
+            return(
+              <>
+              <Category
+              posts = {this.state.posts.filter((post) => match.params.name in post.categories )} 
+              category = {match.params.name}/>
+              </>
+          ) 
+        };   
+      }
+
+      else {
+        blogCategory= () =>{
+          return(<></>)
+        }
+      }
+
+
   		return(
   			<>
         <Helmet>
@@ -66,6 +87,7 @@ class Blog extends Component {
         <div className="page-top">
         <Switch>
   				<Route exact path = '/blog' component = { () =><Articles posts = {this.state.posts}/>} />
+          <Route exact path = '/blog/category/:name' component = {blogCategory} />
           <Route path = '/blog/:postID/:postTitle' component = {postwithID} />
           </Switch>
           </div>
