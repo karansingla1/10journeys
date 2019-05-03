@@ -79,12 +79,12 @@ function Articles(props) {
 			<div className='card-columns'>
 				{explorations}
 			</div>
-			<div><Link to = "/blog/category/explorations" >See All </Link></div> 
+			<div className="see-all-posts"><Link to = "/blog/category/explorations" >See all posts >>> </Link></div> 
 			<h1 className="category-name"> Creative tourism </h1>
 			<div className='card-columns'>
 				{concept}
 			</div>
-			<div><Link to = "/blog/category/creativetourism" >See All </Link></div>
+			<div className="see-all-posts"><Link to = "/blog/category/creativetourism" >See all posts >>> </Link></div>
 			</div>
 		</>	
 		)

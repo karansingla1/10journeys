@@ -70,14 +70,12 @@ function Category(props) {
 		<>
 			<Jumbotron fluid>
 	          <Container className ="container" fluid>
-	            <h1 className="display-3">Our Blog</h1>
+	            <h1 className="display-4"><CategoryName category = {props.category} /></h1>
 	            <p className="lead">
-	              This is our world of beautiful stories that we discover. 
 	            </p>
 	          </Container>
 	        </Jumbotron>
 			<div className='blogs-container justify-content-center'>
-			<h1 className="text-center mb-4"> <CategoryName category = {props.category} /> </h1>
 			<div className='card-columns'>
 				{preview}
 			</div>

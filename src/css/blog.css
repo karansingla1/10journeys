@@ -109,6 +109,22 @@ a:hover{
 }
 
 .category-name{
-  text-align: center;
+  text-lign: center;
   margin-bottom: 30px;
+  margin-top: 30px;
+  background: rgba(207,226,239,0.7);
+  padding: 10px;
+}
+
+.see-all-posts{
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.see-all-posts a{
+  text-align: center;
+  color: black !important;
+  border-bottom: 1px solid #000;
+  padding: 5px;
 }
