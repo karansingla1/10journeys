@@ -3,11 +3,12 @@ import {Route, Switch, Redirect, withRouter} from 'react-router-dom';
 import DestinationPage from './DestinationPageComponent.js';
 import Homepage from './HomepageComponent.js';
 import {connect} from 'react-redux';
-import Footer from './FooterComponent.js';
+import Footer2 from './Footer2.js';
 import Blog from './Blog/BlogComponent.js';
 import TripDetails from './TripDetailsComponent.js';
-import MyNavbar1 from './MyNavbar1.js';
-import About3 from './About3.js'
+import MyNavbar2 from './MyNavbar2.js';
+import About3 from './About3.js';
+import shortJourney from './shortJourney.js';
 
 
 
@@ -69,7 +70,7 @@ class Main extends Component {
 
 		return(
 			<> 
-			<MyNavbar1/>
+			<MyNavbar2/>
 			<Switch>
 				<Route path = '/home' component={Homepage}/>
 				<Route exact path = '/destinations/:name' 
@@ -78,9 +79,11 @@ class Main extends Component {
 				<Route path = '/aboutus' component={About3}/>
 				<Route exact path = '/destinations/:name/:tripID'
 						component={TripWithID} />	
+				<Route exact path = '/creativejourney'
+						component={shortJourney} />		
 				<Redirect to='/home' />	
 			</Switch>
-			<Footer/>
+			<Footer2/>
 			</>
 		)
 

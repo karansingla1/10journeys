@@ -1,7 +1,29 @@
 import React, {Component} from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import {Link} from 'react-router-dom';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
+class Homepage extends Component {
+
+	constructor(props){
+		super(props);
+		this.openForm = this.openForm.bind(this);
+
+		}
+
+	openForm() {
+    this.typeformEmbed.typeform.open();
+  }	
+
+	render() {
+		return (
+			<>
+			<Fullpage />
+			</>	
+			)
+	}
+
+}
 
 const Fullpage = () => (
   <ReactFullpage
@@ -39,6 +61,10 @@ const Fullpage = () => (
           </div>
 
 
+
+          
+
+
           <div className="section section2">
           	<div className="container">
 	          	<div className="row justify-content-center">
@@ -48,7 +74,7 @@ const Fullpage = () => (
 		             
 		             <div className="col-12 align-self-end">
 			          	<div id="we_design">
-			          		We design immersive local experiences and journeys which ignite your
+			          		Book immersive local experiences and journeys which ignite your
 			          		curiosity and creativity. 
 			            </div>
 			          	<div id="reimagining">
@@ -56,10 +82,30 @@ const Fullpage = () => (
 			            </div>   
 		            </div>
 	            </div>
-
-	            <div className="row justify-content-center" id="ex_new">
 	            </div>
+	            <div class="poster-container">
+            <img className = "journey-image1 col-12" src="/imgs/homepage/journey-poster.jpg"/>
+			  <div className="bottom-left1 d-none d-md-block">
+			  	<Link to ='/creativejourney/'>
+			  	<button className="btn btn-primary booking-button"> CHECK ITINERARY </button>
+			  	</Link>
+			  </div>
 
+			  <div className="bottom-left d-md-none">
+			  	<Link to ='/creativejourney/'>
+			  	
+			  	<button className="btn btn-primary booking-button"> CHECK ITINERARY </button>
+			  	</Link>
+			  </div>
+
+			</div>
+	            
+	            <div className="row justify-content-center ">
+					<div className="col-8 col-sm-6 col-md-4 col-lg-3 homepage-button-container">
+					</div>
+				</div>	
+
+	            <div className="">
 	            <div className="row" id="experience-images">
 	            	<div className="col-12 col-sm-6 col-lg-3 container1">
 				  		<img src="/imgs/homepage/pillars/img2.jpg" alt="Avatar" className="
@@ -95,27 +141,33 @@ const Fullpage = () => (
 				</div>
 
 				<div className="row justify-content-center ">
-					<div className="col-12 col-sm-6 col-md-5 col-lg-4 homepage-button-container">
+					<div className="col-8 col-sm-6 col-md-4 col-lg-3 homepage-button-container">
 						<Link to ='/blog/'>
 							<div className='homepage-button btn  '>Read stories</div>
 						</Link> 
 					</div>
 
-					<div className="col-12 col-sm-6 col-md-5 col-lg-4 homepage-button-container">
+					<div className="col-8 col-sm-6 col-md-4 col-lg-3 homepage-button-container">
 						<div className="row">
-							<Link className="col-12" to ='/destinations/mcleodganj/'>
+							<Link className="col-12" to ='/creativejourney/'>
 								<div className='homepage-button btn '>Book an experience</div>
 							</Link>
 						</div>	
 						<div className="row">
 							<div className="col-12" id="currently">
-								We are coming to Mcleodganj!
 							</div>
 						</div> 
 					</div>
+
+					
 				</div>
+
             </div>
+
           </div>
+
+
+
 
           <div className="section section3">
           	<div className="container">
@@ -167,21 +219,6 @@ const Fullpage = () => (
   />
 );
 
-class Homepage extends Component {
 
-	constructor(props){
-		super(props);
-
-		}
-
-	render() {
-		return (
-			<>
-			<Fullpage />
-			</>	
-			)
-	}
-
-}
 
 export default Homepage;

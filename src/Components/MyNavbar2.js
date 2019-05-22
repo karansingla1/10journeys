@@ -23,7 +23,7 @@ import {
 			}
 }
 
-class MyNavbar1 extends Component{
+class MyNavbar2 extends Component{
 	constructor(props) {
 		super(props);
 
@@ -63,12 +63,9 @@ class MyNavbar1 extends Component{
 		          <NavbarToggler onClick={this.toggle} />
 		          <Collapse isOpen={this.state.isOpen} navbar>
 		            <Nav className="ml-auto" navbar>
+		             
 		              <NavItem>
-		              	<NavLink className ='nav-link' to="/destinations/mcleodganj/" onClick={this.toggle}>Mcleodganj</NavLink>
-		              </NavItem>
-
-		              <NavItem>
-		              	<NavLink className ='nav-link' to="/creativejourney/" onClick={this.toggle}>Join</NavLink>
+		              	<NavLink className ='nav-link' to="/creativejourney/" onClick={this.toggle}>Journeys</NavLink>
 		              </NavItem>
 		              
 		              <NavItem>
@@ -85,4 +82,4 @@ class MyNavbar1 extends Component{
 		);
 	};
 }
-export default withRouter(connect(mapStatetoProps)(MyNavbar1));
+export default withRouter(connect(mapStatetoProps)(MyNavbar2));
