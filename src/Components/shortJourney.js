@@ -59,12 +59,14 @@ class shortJourney extends Component {
 
 			<div class="poster-container">
 
-			<ReactTypeformEmbed
+			
+
+            <img className = "journey-image1 col-12" src="/imgs/homepage/journey-poster.jpg"/>
+			 <div className = "form-container"> 
+            <ReactTypeformEmbed
           popup
           autoOpen={false}
           url="https://romitsingla.typeform.com/to/kBNXI3"
-          hideHeaders
-          hideFooter
           buttonText="Go!"
           style={{ top: 100 }}
           ref={tf => {
@@ -72,13 +74,13 @@ class shortJourney extends Component {
           }}
         />
 
-            <img className = "journey-image1 col-12" src="/imgs/homepage/journey-poster.jpg"/>
 			  <div className="bottom-left1 d-none d-md-block">
-			  	<button className="btn btn-primary booking-button" onClick={this.openForm}> REGISTER </button>
+			  	<button className="btn btn-primary booking-button" onClick={this.openForm}> I AM INTERESTED </button>
 			  </div>
 
 			  <div className="bottom-left d-md-none">
-			  	<button className=" btn btn-primary booking-button" onClick={this.openForm}> REGISTER </button>
+			  	<button className=" btn btn-primary booking-button" onClick={this.openForm}> I AM INTERESTED </button>
+			  </div>
 			  </div>
 
 			</div>
@@ -455,7 +457,7 @@ class shortJourney extends Component {
 					<div className = 'col-12 trip-info-titles'>Where will you go?</div>
 					<div className = 'col-12 activity-description'>
 					The entire journey takes place in the lap of the beautiful Dhauladhar ranges. Through the 5 days, 
-					you will in Andretta (around Palampur), McLeodganj, Dharamkot and Kareri. <br/><br/> Your mornings
+					you will be in Andretta (around Palampur), McLeodganj, Dharamkot and Kareri. <br/><br/> Your mornings
 					will be spent in taking nature walks, and having fresh and healthy breakfast. During the day, 
 					you will engage in different creative activites, visiting local cutural places. The evenings will
 					be usually spent around a bonfire, or a cozy cafe, interacting with the group or the locals, and looking back at the
@@ -511,13 +513,13 @@ class shortJourney extends Component {
 			</div>
 
 			<div className="row trip-info justify-content-center">
-			<button className="col-auto btn   booking-button1" onClick={this.openForm}> REGISTER </button>
+			<button className="col-auto btn   booking-button1" onClick={this.openForm}> I AM INTERESTED </button>
 			</div>
 
 			<div className="row empty-div"/>
 
 			<div className= "book-button-container d-none d-md-block">
-				<button className = "im-checkout-btn im-checkout" onClick={this.openForm}>REGISTER</button>
+				<button className = "im-checkout-btn im-checkout" onClick={this.openForm}>I AM INTERESTED</button>
 			</div>
 
 			

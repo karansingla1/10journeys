@@ -517,3 +517,9 @@ cursor: pointer;
   border: none;
   font-weight: bold;
 }
+
+.__typeform-embed-mobile-modal-open{
+  max-height: 200px !important;
+  top: 100px !important;
+
+}
