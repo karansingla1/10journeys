@@ -99,7 +99,7 @@ class shortJourney extends Component {
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/FX1PVTYBzhuV12C1A"> Dharamshala </a> by 9am  </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, activities, transport (Dharamshala - Dharamshala)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 10-12 people for a meaningful experience.</div>					
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>18,000/person</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>18000</div>
 
 				</div>
 
@@ -519,7 +519,7 @@ class shortJourney extends Component {
 			<div className="row empty-div"/>
 
 			<div className= "book-button-container d-none d-md-block">
-				<button className = "im-checkout-btn im-checkout" onClick={this.openForm}>I AM INTERESTED</button>
+				<button className = "im-checkout-btn im-checkout" onClick={this.openForm}>I AM <br/>INTERESTED</button>
 			</div>
 
 			
