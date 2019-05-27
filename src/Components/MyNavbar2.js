@@ -68,9 +68,7 @@ class MyNavbar2 extends Component{
 		              	<NavLink className ='nav-link' to="/creativejourney/" onClick={this.toggle}>Journeys</NavLink>
 		              </NavItem>
 		              
-		              <NavItem>
-		                <NavLink className ='nav-link' to="/blog/" onClick={this.toggle}>Blog</NavLink>
-		              </NavItem>
+		              
 		              
 		              <NavItem>
 		                <NavLink className = 'nav-link' to="/aboutus/" onClick={this.toggle}>About us</NavLink>
