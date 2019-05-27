@@ -131,7 +131,7 @@ class shortJourney extends Component {
 					<div className = 'col-12 trip-info-titles'>The experience</div>
 						<div className = 'col-12 activity-description'>This is a journey of creativity, learning new skills, connecting and building meaningful relationships, and being close to the nature.
 						<br/>
-						We engage in creative activities, meet new people, explore the local culture and go for some nature walks.
+						We engage in creative activities in professional studios with master artists, meet new people, explore the local culture and go for nature hikes.
 						<br/>
 						You will have enough free time to explore around or just peacefully relax at a local cafe or at a picturesque spot in the mountains.
 						</div>
