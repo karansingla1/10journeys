@@ -169,7 +169,7 @@ class DayWise extends Component {
                                 <br/><br/>
                                 In the late afternoon, we go for a short hike to a beautiful waterfall,
                                  watching and listening to the beautiful sounds of the birds along the way. On the way back, 
-                                 watch the sun disappear along with the delicious at the Sunset cafe. We walk back to 
+                                 watch the sun disappear along with delicious snacks at the Sunset cafe. We walk back to 
                                  Dharamkot and spend the night there.
 
                                  <br/><br/>

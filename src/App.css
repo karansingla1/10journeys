@@ -62,17 +62,21 @@ cursor: pointer;
 .im-checkout-btn {
 
   background-color: black !important;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   color: white !important;
-  font-size: 15px;
+  font-size: 20px;
   line-hight: 0px;
   padding: 10px !important;
-  height: 105px;
-  width: 105px;
+  height: 40px;
+  width: 160px;
   box-sadow: 2px 2px 5px 0px black !important;
-  border-radius: 50% !important;
+  border-radius: 5% !important;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 10px;
+  vertical-align: middle;
+  padding: 5px !important;
+
 }
 
 
@@ -512,6 +516,25 @@ cursor: pointer;
 
 .booking-button1:hover{
   font-size: 22px;
+  background-color: grey;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.booking-button2{
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.booking-button2:hover{
+  font-size: 18px;
   background-color: grey;
   color: white;
   border: none;

@@ -6,6 +6,8 @@ import classnames from 'classnames';
 import FAQs from './FAQs.js';
 import DayWise from './DayWise.js'
 import { ReactTypeformEmbed } from 'react-typeform-embed';
+import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
 
 
 
@@ -14,11 +16,14 @@ class shortJourney extends Component {
 		super(props);
 
 		this.toggle = this.toggle.bind(this);
-		    this.openForm = this.openForm.bind(this);
+		this.openForm = this.openForm.bind(this);
+		 this.toggle2 = this.toggle2.bind(this);
+
 
 
     	this.state = {
       	activeTab: '1',
+      	modal: false,
     };
 	};
 
@@ -29,6 +34,12 @@ class shortJourney extends Component {
         activeTab: tab
       });
     }
+  }
+
+  toggle2() {
+    this.setState(prevState => ({
+      modal: !prevState.modal
+    }));
   }
 
   openForm() {
@@ -75,11 +86,11 @@ class shortJourney extends Component {
         />
 
 			  <div className="bottom-left1 d-none d-md-block">
-			  	<button className="btn btn-primary booking-button" onClick={this.openForm}> I AM INTERESTED </button>
+			  	<a href="#bookingOptions"><button className="btn btn-primary booking-button"> BOOK NOW </button></a>
 			  </div>
 
 			  <div className="bottom-left d-md-none">
-			  	<button className=" btn btn-primary booking-button" onClick={this.openForm}> I AM INTERESTED </button>
+			  	<a href="#bookingOptions"><button className=" btn btn-primary booking-button"> BOOK NOW </button></a>
 			  </div>
 			  </div>
 
@@ -97,9 +108,10 @@ class shortJourney extends Component {
 				<div className="row trip-info1 summary">
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 12th June - 16th June; (4nights, 5 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/FX1PVTYBzhuV12C1A"> Dharamshala </a> by 9am  </div>
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, activities, transport (Dharamshala - Dharamshala)</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, transport, creative activities in studios with master artists (Dharamshala - Dharamshala)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 10-12 people for a meaningful experience.</div>					
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>18,000/person (Includes all creative activities in studios with master artists)</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>18,000/person for a single booking </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>15,000/person for a group of 2-3 </div>
 
 				</div>
 
@@ -510,19 +522,52 @@ class shortJourney extends Component {
 
 			</div>
 			</div>
-			</div>
 
-			<div className="row trip-info justify-content-center">
-			<button className="col-auto btn   booking-button1" onClick={this.openForm}> I AM INTERESTED </button>
+			<div className="row trip-info justify-content-center" id="bookingOptions">
+			<div className = 'col-auto trip-info-titles'>Book Now</div>
+			<div className="col-12 mt-3" >
+		      <div className="row justify-content-center">
+		      <div className="col-12 col-md-3 mb-3">
+		      <Card>
+		        <CardBody>
+		          <CardTitle>For single booking: </CardTitle>
+		          <CardSubtitle className="mb-3">18000/person</CardSubtitle>
+<a href="https://www.instamojo.com/10journeys/a-creative-journey-amidst-the-himalayas-7f822/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+		        </CardBody>
+		      </Card>
+		      </div>
+
+		      <div className="col-12 col-md-3 mb-3">
+		      <Card>
+		        <CardBody>
+		          <CardTitle>For group booking: </CardTitle>
+		          <CardSubtitle className="mb-3">15000/person</CardSubtitle>
+		          <a href="https://www.instamojo.com/10journeys/a-creative-journey-amidst-the-himalayas/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+		        </CardBody>
+		      </Card>
+		      </div>
+		      </div>
+		    </div>
+
+			<div className="container">
+			<div className="col-12 mb-3 mt-3">
+		   	Still not Sure? Show your interest by filling this form. We will get back to you.
+		   	</div>
+		   	<div className = "col-12">
+		   	<button className="col-auto btn booking-button1" onClick={this.openForm}> I AM INTERESTED </button>
+		   	</div>
+		   	</div>
+
+			</div>
 			</div>
 
 			<div className="row empty-div"/>
 
-			<div className= "book-button-container d-none d-md-block">
-				<button className = "im-checkout-btn im-checkout" onClick={this.openForm}>I AM <br/>INTERESTED</button>
+			<div className= "book-button-container">
+			<a href="#bookingOptions"><button className="btn btn-primary booking-button2"> BOOK <br/>NOW </button></a>
 			</div>
-
 			
+
 			          
 			</>
 		)
