@@ -108,7 +108,7 @@ class shortJourney extends Component {
 				<div className="row trip-info1 summary">
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 12th June - 16th June; (4nights, 5 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/FX1PVTYBzhuV12C1A"> Dharamshala </a> by 9am  </div>
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, transport, creative activities in studios with master artists (Dharamshala - Dharamshala)</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, creative activities in studios with master artists, transport (Dharamshala - Dharamshala)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 10-12 people for a meaningful experience.</div>					
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>18,000/person for a single booking </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>15,000/person for a group of 2-3 </div>
