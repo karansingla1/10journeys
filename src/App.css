@@ -161,6 +161,9 @@ cursor: pointer;
   min-height: 200px;
 }
 
+.empty-div2{
+  min-height: 40px;
+}
 .tagline1{
   max-width: 100%;
   font-size: 50px;

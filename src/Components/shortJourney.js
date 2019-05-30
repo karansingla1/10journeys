@@ -522,6 +522,7 @@ class shortJourney extends Component {
 
 			</div>
 			</div>
+			<div className="empty-div2" id="bookingOptions"/>
 
 			<div className="row trip-info justify-content-center" id="bookingOptions">
 			<div className = 'col-auto trip-info-titles'>Book Now</div>
@@ -551,7 +552,7 @@ class shortJourney extends Component {
 
 			<div className="container">
 			<div className="col-12 mb-3 mt-3">
-		   	Still not Sure? Show your interest by filling this form. We will get back to you.
+		   	Still not sure? Show your interest by filling this form. We will get back to you.
 		   	</div>
 		   	<div className = "col-12">
 		   	<button className="col-auto btn booking-button1" onClick={this.openForm}> I AM INTERESTED </button>
