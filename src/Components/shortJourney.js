@@ -86,11 +86,13 @@ class shortJourney extends Component {
         />
 
 			  <div className="bottom-left1 d-none d-md-block">
-			  	<a href="#bookingOptions"><button className="btn btn-primary booking-button"> BOOK NOW </button></a>
+			  	<a href="#bookingOptions"><button className="col-12 btn btn-primary booking-button"> BOOK NOW </button></a>
+			  	<div className="last-date-text"> Bookings close on 3rd June. </div>
 			  </div>
 
 			  <div className="bottom-left d-md-none">
 			  	<a href="#bookingOptions"><button className=" btn btn-primary booking-button"> BOOK NOW </button></a>
+			  	<div className="last-date-text-mobile"> Bookings close on 3rd June. </div>
 			  </div>
 			  </div>
 

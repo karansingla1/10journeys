@@ -482,7 +482,7 @@ cursor: pointer;
 /* Bottom left text */
 .bottom-left {
   position: absolute;
-  top: 65%;
+  top: 64%;
   left: 5.3%;
 }
 
@@ -547,5 +547,19 @@ cursor: pointer;
 .__typeform-embed-mobile-modal-open{
   max-height: 200px !important;
   top: 100px !important;
+}
 
+.last-date-text{
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.last-date-text-mobile{
+  background-color: white;
+  color: black;
+  margin-top: 5px;
+  padding: 0 5px 0 5px;
+  font-size: 12px;
 }
