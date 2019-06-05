@@ -77,7 +77,7 @@ class shortJourney extends Component {
             <ReactTypeformEmbed
           popup
           autoOpen={false}
-          url=""
+          url="https://10journeys.typeform.com/to/Gpbtm1"
           buttonText="Go!"
           style={{ top: 100 }}
           ref={tf => {
@@ -167,7 +167,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
-													Get help from experienced potters as you experiment.  
+													Dharamkot studio with the amazing view of the Dhauladhar range.  
 												</div>
 											</div>
 										</div>
@@ -179,7 +179,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
-													Andretta has been the meeting point of artists, potters and creatives.
+													Come up with different designs in a fun filled environment.
 												</div>
 											</div>
 										</div>
@@ -191,7 +191,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
-													Come up with different designs in a fun filled environment.
+													Be inspired in a space with good vibes.
 												</div>
 											</div>
 										</div>
@@ -218,7 +218,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
-													The joy of wood painting.
+													Help the owner of a local cafe.
 												</div>
 											</div>
 										</div>
@@ -230,7 +230,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
-													The joy of wood painting.
+													Can you cook a dish?
 												</div>
 											</div>
 										</div>
@@ -242,7 +242,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
-													The joy of wood painting.
+													Maybe, help to style the cafe.
 												</div>
 											</div>
 										</div>
@@ -267,6 +267,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
+													Enroute the walk to the waterfall.
 												</div>
 											</div>
 										</div>
@@ -278,6 +279,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
+													Watch the sun slowly disappear.
 												</div>
 											</div>
 										</div>
@@ -289,6 +291,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
+													Yoga session with an amazing view.
 												</div>
 											</div>
 										</div>
@@ -311,6 +314,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
+													Visit the Dalai Lama Temple.
 												</div>
 											</div>
 										</div>
@@ -322,6 +326,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
+													Learn Tibetan cooking.
 												</div>
 											</div>
 										</div>
@@ -333,6 +338,7 @@ class shortJourney extends Component {
 
 											<div className="row">
 												<div className = "col-12 activity-image-description">
+													Immerse into the folk traditions of Tibet.
 												</div>
 											</div>
 										</div>
