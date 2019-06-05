@@ -84,17 +84,17 @@ const Fullpage = () => (
 	            </div>
 	            </div>
 	            <div class="poster-container">
-            <img className = "journey-image1 col-12" src="/imgs/homepage/journey-poster.jpg"/>
-			  <div className="bottom-left1 d-none d-md-block">
-			  	<Link to ='/creativejourney/'>
-			  	<button className="btn btn-primary booking-button"> CHECK ITINERARY </button>
+            <img className = "journey-image1 col-12" src="/imgs/summerjams_mcleodganj/summer_jams.jpg"/>
+			  <div className="bottom-left1-homepage d-none d-md-block">
+			  	<Link to ='/summerjams-mcleodganj/'>
+			  	<button className="btn btn-primary booking-button"> BOOK NOW </button>
 			  	</Link>
 			  </div>
 
-			  <div className="bottom-left d-md-none">
-			  	<Link to ='/creativejourney/'>
+			  <div className="bottom-left-homepage d-md-none">
+			  	<Link to ='summerjams-mcleodganj/'>
 			  	
-			  	<button className="btn btn-primary booking-button"> CHECK ITINERARY </button>
+			  	<button className="btn btn-primary booking-button"> BOOK NOW </button>
 			  	</Link>
 			  </div>
 
@@ -141,7 +141,7 @@ const Fullpage = () => (
 				</div>
 
 				<div className="row justify-content-center ">
-					<div className="col-8 col-sm-6 col-md-4 col-lg-3 homepage-button-container">
+					<div className="d-none col-8 col-sm-6 col-md-4 col-lg-3 homepage-button-container">
 						<Link to ='/blog/'>
 							<div className='homepage-button btn  '>Read stories</div>
 						</Link> 
@@ -149,7 +149,7 @@ const Fullpage = () => (
 
 					<div className="col-8 col-sm-6 col-md-4 col-lg-3 homepage-button-container">
 						<div className="row">
-							<Link className="col-12" to ='/creativejourney/'>
+							<Link className="col-12" to ='/journeys/'>
 								<div className='homepage-button btn '>Book an experience</div>
 							</Link>
 						</div>	

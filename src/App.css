@@ -151,7 +151,7 @@ cursor: pointer;
     border-bottom: 1px ridge;
 }
 
-.trip-info-titles {
+.trip-info-titles, .month-name  {
   font-weight: bold;
   font-size: 35px;
   margin-bottom: 10px;
@@ -482,15 +482,23 @@ cursor: pointer;
 /* Bottom left text */
 .bottom-left {
   position: absolute;
-  top: 64%;
+  top: 65%;
   left: 5.3%;
 }
 
 .bottom-left1 {
   position: absolute;
-  top: 70%;
+  top: 74%;
   left: 5.3%;
   font-size: 25px;
+}
+
+.bottom-left-homepage {
+  
+}
+
+.bottom-left1-homepage {
+  
 }
 
 .booking-button{
@@ -562,4 +570,18 @@ cursor: pointer;
   margin-top: 5px;
   padding: 0 5px 0 5px;
   font-size: 12px;
+}
+
+.check-itinerary-button{
+  background-color: black;
+  font-weight: bold;
+}
+
+.trip-dates{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.journey-card{
+  min-height: inherit;
 }

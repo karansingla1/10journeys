@@ -65,7 +65,7 @@ class MyNavbar2 extends Component{
 		            <Nav className="ml-auto" navbar>
 		             
 		              <NavItem>
-		              	<NavLink className ='nav-link' to="/creativejourney/" onClick={this.toggle}>Journeys</NavLink>
+		              	<NavLink className ='nav-link' to="/journeys/" onClick={this.toggle}>Journeys</NavLink>
 		              </NavItem>
 		              
 		              

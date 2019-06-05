@@ -1,0 +1,483 @@
+import React, {Component} from 'react';
+import {UncontrolledCarousel} from 'reactstrap';
+import { CardImg, CardSubtitle, TabContent, TabPane, Nav, NavItem, NavLink,Collapse, CardBody, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import {Helmet} from 'react-helmet';
+import classnames from 'classnames';
+import FAQs from './FAQs.js';
+import DayWise from './DayWise.js'
+import { ReactTypeformEmbed } from 'react-typeform-embed';
+import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+
+
+
+
+class shortJourney extends Component {
+	constructor(props) {
+		super(props);
+
+		this.toggle = this.toggle.bind(this);
+		this.openForm = this.openForm.bind(this);
+		 this.toggle2 = this.toggle2.bind(this);
+
+
+
+    	this.state = {
+      	activeTab: '1',
+      	modal: false,
+    };
+	};
+
+
+	toggle(tab) {
+    if (this.state.activeTab !== tab) {
+      this.setState({
+        activeTab: tab
+      });
+    }
+  }
+
+  toggle2() {
+    this.setState(prevState => ({
+      modal: !prevState.modal
+    }));
+  }
+
+  openForm() {
+    this.typeformEmbed.typeform.open();
+  }
+
+
+	componentDidMount () {
+        const script = document.createElement("script");
+
+        script.src = "https://js.instamojo.com/v1/button.js";
+        script.async = true;
+
+        document.body.appendChild(script);
+    }
+
+ 
+	render(){
+
+		return(
+			<>
+
+			<Helmet>
+				<title></title>
+			</Helmet>
+			<div className="page-top"> </div>
+			<div className="col-12 poster-container">
+
+			<div class="poster-container">
+
+			
+
+            <img className = "journey-image1 col-12" src="/imgs/summerjams_mcleodganj/summer_jams.jpg"/>
+			 <div className = "form-container"> 
+            <ReactTypeformEmbed
+          popup
+          autoOpen={false}
+          url=""
+          buttonText="Go!"
+          style={{ top: 100 }}
+          ref={tf => {
+            this.typeformEmbed = tf;
+          }}
+        />
+
+			  <div className="bottom-left1 d-none d-md-block">
+			  	<a href="#bookingOptions"><button className="col-12 btn btn-primary booking-button"> BOOK NOW </button></a>
+			  	<div className="last-date-text"> Bookings open! </div>
+			  </div>
+
+			  <div className="bottom-left d-md-none">
+			  	<a href="#bookingOptions"><button className=" btn btn-primary booking-button"> BOOK NOW </button></a>
+			  	<div className="last-date-text-mobile"> Bookings open! </div>
+			  </div>
+			  </div>
+
+			</div>
+
+            </div>
+
+            
+
+			<div className = "container">
+			<div className="row">
+			
+			<div className="col-12 col-md-12">
+
+				<div className="row trip-info1 summary">
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 8th - 30th June; 5th - 7th July (2nights, 3 days) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/EfRwywxLa2q6KwLK9"> McLeodganj </a> by 9am  </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, creative activities, transport (McLeodganj - McLeodganj)</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience.</div>					
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>5999/person </div>
+				</div>
+
+
+				<div>
+			        <Nav tabs>
+			          <NavItem>
+			            <NavLink
+			              className={classnames({ active: this.state.activeTab === '1' })}
+			              onClick={() => { this.toggle('1'); }}
+			            >
+			              <div className="tab-heading">The experience</div>
+			            </NavLink>
+			          </NavItem>
+			          <NavItem>
+			            <NavLink
+			              className={classnames({ active: this.state.activeTab === '2' })}
+			              onClick={() => { this.toggle('2'); }}
+			            >
+			              <div className="tab-heading">The Itinerary</div>
+			            </NavLink>
+			          </NavItem>
+			        </Nav>
+			        <TabContent activeTab={this.state.activeTab}>
+			          <TabPane tabId="1">
+			            <Row>
+			              <Col sm="12">
+			                <div className="row trip-info">
+					<div className = 'col-12 trip-info-titles'>The experience</div>
+						<div className = 'col-12 activity-description'>
+						A 3 day experience in a village hamlet above McLeodGanj named Dharamkot full of fun activities and getting lost in the nature.
+						
+							You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, watching beautiful sunsets, doing yoga and bathing at a waterfall.
+						 	You will be with a group of around 10 young people, exploring and making memories together.
+						 
+						</div>	
+				</div>
+
+				<div className="row trip-info">
+					<div className = 'col-12 trip-info-titles'> What will you do?</div>
+						<div className ="container activities-container">
+
+
+							<div className="row">
+								<div className ="col-12 activity-title">Make and fire your own pots.</div>
+								<div className="col-12 activity-description">Turn a lump of clay into shapes and sizes of your imagination at a beautiful studio in Dharamkot. Chill, have fun and admire the mighty Dhauladhar range with a small community of artists. </div>
+								<div className ="col-12">
+									<div className="row">
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className="col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/pottery1.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													Get help from experienced potters as you experiment.  
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/pottery2.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													Andretta has been the meeting point of artists, potters and creatives.
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/pottery3.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													Come up with different designs in a fun filled environment.
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>		
+							</div>
+
+							<div className="row">
+								<div className ="col-12 activity-title">Run a cafe with a local</div>
+								<div className="col-12 activity-description">
+									Have you ever wondered or wanted to start your own cafe in the mountains? Well, you can get a taste of what it is, by spending time in local cafe and helping in the day to day operations, 
+									cooking your favourite dish or styling the cafe.
+								</div>
+								
+
+								<div className ="col-12">
+									<div className="row">
+										
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe1.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													The joy of wood painting.
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe2.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													The joy of wood painting.
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe3.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													The joy of wood painting.
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>		
+							</div>
+
+
+							<div className="row">
+								<div className ="col-12 activity-title">A beautiful waterfall, sunset and Yoga</div>
+								<div className="col-12 activity-description"> You are bound to feel much more fresh, energetic and one with the nature as you watch the sun disappear, jump into the cool waters of a waterfall, and do yoga with a view of the beautiful mountains.  To add to the fun, all this is along with an amazing bunch of new friends that you make.
+								</div>
+								<div className="col-12 activity-sub-description"> </div>
+
+								<div className ="col-12">
+									<div className="row">
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/nature1.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/nature2.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/nature3.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>		
+							</div>
+
+
+							<div className="row">
+								<div className ="col-12 activity-title">Immerse into the local culture</div>
+								<div className="col-12 activity-description">
+									McLeodganj has a a lot of Tibetan influence. Immerse yourself into it by understanding the culture through stories, visiting the Dalai Lama temple, a museum and engaging in folk show with the locals. You can also learn Tibetan cooking by making your own momos and soups.  </div>
+								<div className ="col-12">
+									<div className="row">
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/local1.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/local2.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/local3.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+										
+									</div>
+								</div>		
+							</div>
+
+
+
+						</div>
+				</div>	
+
+				<div className="row trip-info">
+					<div className = 'col-12 trip-info-titles'>Where will you go?</div>
+					<div className = 'col-12 activity-description'>
+					We spend the first 2 days in a peaceful yet lively village hamlet Dharamkot situated above McLeodganj. Dharamkot is a place for nature lovers, creatives and has lately been known for it's chill culture and amazing cafes. Keeping Dharamkot as the base, you engage the different activites described above, enjoy with the group and in the local cafes,   The 3rd day is more of a free exploration of the amazing local culture in McLeodGanj.  
+					<br/><br/>Check out the day-wise Itinerary 
+
+					<span
+			              className={classnames({ active: this.state.activeTab === '2' })}
+			              onClick={() => { this.toggle('2'); }}
+			            ><a href="#"> here.</a></span></div>
+
+			        <div className ="col-12">
+									<div className="row">
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/location1.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/location2.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/location3.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>    
+					 
+				</div>
+
+
+				<div className="row trip-info">
+					<div className = 'col-12 trip-info-titles'>Inclusions</div>
+					<div className = 'col-12 activity-description'> Once you reach McLeodGanj, all meals, stays, 
+					activities and transport costs are included. You will need to reach McLeodGanj
+					on own. The journey will end at McLeodGanj too. We will be happy to help you with arrangements
+					and suggest you the best way to reach here from your current location.
+					 </div>
+
+				</div>
+
+
+				<div className="row trip-info">
+					<div className = 'col-12 trip-info-titles'>FAQs</div>
+					<FAQs/>
+
+				</div>
+			
+
+			              </Col>
+			            </Row>
+			          </TabPane>
+			          <TabPane tabId="2">
+			          	<Row>
+			              <Col sm="12">
+			              <DayWise/>
+			            </Col>
+			            </Row>
+			          </TabPane>
+		          </TabContent>
+          </div>
+
+
+				
+
+			</div>
+			</div>
+			<div className="empty-div2" id="bookingOptions"/>
+
+			<div className="row trip-info justify-content-center" id="bookingOptions">
+			<div className = 'col-auto trip-info-titles'>Book Now</div>
+			<div className="col-12 mt-3" >
+		      <div className="row justify-content-center">
+		      	<div className="col-auto col-md-3 col-lg-2 align-self-center trip-dates"> 28th-30th June </div>
+		      	<div className = "col-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-28th-june/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+				</div>
+		      </div>
+
+		      <div className="row justify-content-center">
+		      	<div className="col-auto col-md-3 col-lg-2  align-self-center trip-dates"> 5th - 7th July </div>
+		      	<div className = "col-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-5th-july-9a667/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+<script src="https://js.instamojo.com/v1/button.js"></script></div>
+		      </div>
+
+		    </div>
+
+			<div className="container">
+			<div className="col-12 mb-3 mt-3">
+		   	Still not sure? Show your interest by filling this form. We will get back to you right away.<br/> Feel free to call/Whatsapp (+91 9971526127 or +91 9463766651) for any queries.
+		   	</div>
+		   	<div className = "col-12">
+		   	<button className="col-auto btn booking-button1" onClick={this.openForm}> I AM INTERESTED </button>
+		   	</div>
+		   	</div>
+
+			</div>
+			</div>
+
+			<div className="row empty-div"/>
+
+			<div className= "book-button-container">
+			<a href="#bookingOptions"><button className="btn btn-primary booking-button2"> BOOK <br/>NOW </button></a>
+			</div>
+			
+
+			          
+			</>
+		)
+
+	}
+
+}
+
+export default shortJourney;
