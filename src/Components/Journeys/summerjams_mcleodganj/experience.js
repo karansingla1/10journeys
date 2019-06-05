@@ -108,10 +108,10 @@ class shortJourney extends Component {
 			<div className="col-12 col-md-12">
 
 				<div className="row trip-info1 summary">
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 8th - 30th June; 5th - 7th July (2nights, 3 days) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 28th - 30th June; 5th - 7th July (2nights, 3 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/EfRwywxLa2q6KwLK9"> McLeodganj </a> by 9am  </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, creative activities, transport (McLeodganj - McLeodganj)</div>
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience.</div>					
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience. (Ages 18-35)</div>					
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>5999/person </div>
 				</div>
 
@@ -142,9 +142,9 @@ class shortJourney extends Component {
 			                <div className="row trip-info">
 					<div className = 'col-12 trip-info-titles'>The experience</div>
 						<div className = 'col-12 activity-description'>
-						A 3 day experience in a village hamlet above McLeodGanj named Dharamkot full of fun activities and getting lost in the nature.
+						A 3 day experience in a hamlet above McLeodGanj named Dharamkot full of fun activities and getting lost in the nature.
 						
-							You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, watching beautiful sunsets, doing yoga and bathing at a waterfall.
+							You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, watching beautiful sunsets, doing yoga and chilling at a waterfall.
 						 	You will be with a group of around 10 young people, exploring and making memories together.
 						 
 						</div>	
@@ -254,7 +254,7 @@ class shortJourney extends Component {
 
 							<div className="row">
 								<div className ="col-12 activity-title">A beautiful waterfall, sunset and Yoga</div>
-								<div className="col-12 activity-description"> You are bound to feel much more fresh, energetic and one with the nature as you watch the sun disappear, jump into the cool waters of a waterfall, and do yoga with a view of the beautiful mountains.  To add to the fun, all this is along with an amazing bunch of new friends that you make.
+								<div className="col-12 activity-description"> You are bound to feel much more fresh, energetic and one with the nature as you watch the sun disappear, jump into the cool waters of a waterfall, and do yoga with a view of the beautiful mountains.  To add to the fun, all this is along with an amazing bunch of new friends you make along the journey.
 								</div>
 								<div className="col-12 activity-sub-description"> </div>
 
@@ -304,7 +304,7 @@ class shortJourney extends Component {
 							<div className="row">
 								<div className ="col-12 activity-title">Immerse into the local culture</div>
 								<div className="col-12 activity-description">
-									McLeodganj has a a lot of Tibetan influence. Immerse yourself into it by understanding the culture through stories, visiting the Dalai Lama temple, a museum and engaging in folk show with the locals. You can also learn Tibetan cooking by making your own momos and soups.  </div>
+									McLeodganj has a a lot of Tibetan influence. Immerse yourself into it by understanding the culture through stories, visiting the Dalai Lama temple, a museum and engaging in folk show with the locals. During your free exploration on last day, we suggest you also try Tibetan cooking by making your own momos and soups at Lhmo's kitchen.  </div>
 								<div className ="col-12">
 									<div className="row">
 										<div className="col-12 col-sm-6 col-md-4">
@@ -355,7 +355,7 @@ class shortJourney extends Component {
 				<div className="row trip-info">
 					<div className = 'col-12 trip-info-titles'>Where will you go?</div>
 					<div className = 'col-12 activity-description'>
-					We spend the first 2 days in a peaceful yet lively village hamlet Dharamkot situated above McLeodganj. Dharamkot is a place for nature lovers, creatives and has lately been known for it's chill culture and amazing cafes. Keeping Dharamkot as the base, you engage the different activites described above, enjoy with the group and in the local cafes,   The 3rd day is more of a free exploration of the amazing local culture in McLeodGanj.  
+					We spend the first 2 days in a peaceful yet lively hamlet Dharamkot situated above McLeodganj. Dharamkot is a place for nature lovers, creatives and has lately been known for it's chill culture and amazing cafes. Keeping Dharamkot as the base, you engage the different activites described above, enjoy with the group and in the local cafes,   The 3rd day is more of a free exploration of the amazing local culture in McLeodGanj.  
 					<br/><br/>Check out the day-wise Itinerary 
 
 					<span
@@ -408,7 +408,7 @@ class shortJourney extends Component {
 					<div className = 'col-12 trip-info-titles'>Inclusions</div>
 					<div className = 'col-12 activity-description'> Once you reach McLeodGanj, all meals, stays, 
 					activities and transport costs are included. You will need to reach McLeodGanj
-					on own. The journey will end at McLeodGanj too. We will be happy to help you with arrangements
+					on your own. The journey will also end at McLeodGanj. We will be happy to help you with arrangements
 					and suggest you the best way to reach here from your current location.
 					 </div>
 

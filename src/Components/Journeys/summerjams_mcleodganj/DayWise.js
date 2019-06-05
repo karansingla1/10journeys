@@ -114,11 +114,11 @@ class DayWise extends Component {
 
                                     <div className="col-12 col-md-8">
                                         <b> Day 2 </b><br/>
-                                <i>Run a local cafe,a thundering waterfall,beautful sunset, Yoga</i><br/><br/>
+                                <i>Run a local cafe, a Thundering Waterfall, Beautful Sunset, Yoga</i><br/><br/>
                                   Join a morning Yoga session along with the rising sun. Go for a walk around and have a healthy breakfast
                                   of your choice. <br/><br/>
                                   This day is also about getting the feel of running a local cafe, and giving wings to your thoughts 
-                                  of starting a cafe in the mountains. Dharamkot has numerous kinds of cafes, and can pick a role of your 
+                                  of starting a cafe in the mountains. Dharamkot has numerous kinds of cafes, and you can pick a role of your 
                                   choice at any of these for a couple of hours. Cook your dish, style the cafe or wait tables, whatever fits your cup.
                                   <br/><br/>
                                  <p> In the late afternoon, we start our walk to the Gallu waterfall, on a trail with a lot of birds. Feel the rush of the 
@@ -133,7 +133,7 @@ class DayWise extends Component {
                                         <UncontrolledCarousel items={items2} />
                                         <CardBody>                                    
                                             <div className="col-12"><i className = "mr-2 fa fa-check"/>Yoga</div>
-                                            <div className="col-12"><i className = "mr-2 fa fa-check"/>Running a cafe</div>
+                                            <div className="col-12"><i className = "mr-2 fa fa-check"/>Running a local cafe</div>
                                             <div className="col-12"><i className = "mr-2 fa fa-check"/>Waterfall trek</div>
                                             <div className="col-12"><i className = "mr-2 fa fa-check"/>Sunset Cafe</div>                                        </CardBody>
                                       </Card>
