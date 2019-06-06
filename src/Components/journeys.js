@@ -62,7 +62,7 @@ class journeys extends Component {
 				      <Card>
 				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/summer_jams.jpg" alt="Card image cap" />
 				        <CardBody>
-				          <CardText>A 3-day experience in a village hamlet above McLeodGanj named Dharamkot. You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and bathing at a waterfall. </CardText>
+				          <CardText>A 3-day creative experience in a village hamlet above McLeodGanj named Dharamkot. You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
 				          <CardLink href="/summerjams-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
 				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2">Book <br/>Now.</Badge>
 				          <Badge pill color="info" className="ml-2"> <i className = "fa fa-inr"/> 5999 <br/>per person</Badge>

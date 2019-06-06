@@ -110,7 +110,7 @@ class shortJourney extends Component {
 				<div className="row trip-info1 summary">
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 28th - 30th June; 5th - 7th July (2nights, 3 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/EfRwywxLa2q6KwLK9"> McLeodganj </a> by 9am  </div>
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>All meals, stays, creative activities, transport (McLeodganj - McLeodganj)</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>Meals (Breakfast and Lunch), stays, creative activities, transport (McLeodganj - McLeodganj)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience. (Ages 18-35)</div>					
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>5999/person </div>
 				</div>
@@ -406,7 +406,7 @@ class shortJourney extends Component {
 
 				<div className="row trip-info">
 					<div className = 'col-12 trip-info-titles'>Inclusions</div>
-					<div className = 'col-12 activity-description'> Once you reach McLeodGanj, all meals, stays, 
+					<div className = 'col-12 activity-description'> Once you reach McLeodGanj, meals (breakfast and lunch on all days), stays, 
 					activities and transport costs are included. You will need to reach McLeodGanj
 					on your own. The journey will also end at McLeodGanj. We will be happy to help you with arrangements
 					and suggest you the best way to reach here from your current location.
