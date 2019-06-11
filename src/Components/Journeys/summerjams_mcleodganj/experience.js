@@ -63,7 +63,8 @@ class shortJourney extends Component {
 			<>
 
 			<Helmet>
-				<title></title>
+				<title>Summer Jams in McLeodGanj - Join a trip</title>
+				
 			</Helmet>
 			<div className="page-top"> </div>
 			<div className="col-12 poster-container">
