@@ -97,8 +97,7 @@ class TripsShow extends Component{
 						<div className='col-12 col-sm-10'>
 							<div className ='row'>{tripbyDate(current_date)}</div>
 						</div>
-					</div>	
-					
+					</div>
 				)
 		}				
 	})	

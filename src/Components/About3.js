@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, CardLink,Col } from 'reactstrap';
-import Footer from './FooterComponent.js';
 import {Helmet} from "react-helmet";
 
 

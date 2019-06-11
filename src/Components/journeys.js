@@ -28,7 +28,7 @@ class journeys extends Component {
 			<>
 
 			<Helmet>
-				<title></title>
+				<title>Journeys</title>
 			</Helmet>
 			<div className="page-top"> </div>
 
@@ -44,30 +44,58 @@ class journeys extends Component {
 			<div className = "container">
 				<div className="row">
 					<div className = "col-12 month-name mt-4">
-						June
+						June 2019
 					</div>
-					<div className="col-12 col-md-4 journey-card">
-				      <Card>
+					<div className="scrolling-wrapper">
+					<div className="col-10 col-md-5 col-lg-4">
+				      <Card className="journey-card">
+				      <CardLink href="/creativejourney">
 				        <CardImg top width="100%" src="/imgs/homepage/journey-poster.jpg" alt="Card image cap" />
-				        <CardBody>
-				          <CardText>A journey of creativity, learning new skills, connecting and building meaningful relationships, and being close to the nature.</CardText>
+				        <CardBody className="journey-card-text">
+				          <CardText >A journey of creativity, learning new skills, connecting and building meaningful relationships, and being close to the nature.</CardText>
 				          <CardLink href="/creativejourney"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
-				          <Badge pill color="danger" className="ml-2">Bookings <br/>closed.</Badge>
+				          <Badge pill color="danger" className="ml-2 mt-1">Bookings <br/>closed.</Badge>
 				          <CardFooter className=" mt-3">Contact us to book for your group.</CardFooter>	
 				        </CardBody>
+				       </CardLink> 
 				      </Card>
-				    </div>
+				      </div>
 
-				    <div className="col-12 col-md-4">
-				      <Card>
+				      <div className="col-10 col-md-5 col-lg-4">
+				      <Card className="journey-card">
+				      <CardLink href="/summerjams-mcleodganj">
 				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/summer_jams.jpg" alt="Card image cap" />
-				        <CardBody>
-				          <CardText>A 3-day creative experience in a village hamlet above McLeodGanj named Dharamkot. You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
+				        <CardBody className="journey-card-text">
+				          <CardText>A 3-day creative experience in a hamlet above McLeodGanj, Dharamkot. Have fun making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
 				          <CardLink href="/summerjams-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
-				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2">Book <br/>Now.</Badge>
-				          <Badge pill color="info" className="ml-2"> <i className = "fa fa-inr"/> 5999 <br/>per person</Badge>
+				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1">Book <br/>Now.</Badge>
+				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999 <br/>per person</Badge>
 				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
 				        </CardBody>
+				      </CardLink>
+				      </Card>
+				    </div>
+				    </div>
+
+				</div>
+
+
+				<div className="row">
+					<div className = "col-12 month-name mt-4">
+						July 2019
+					</div>	
+				    <div className="col-10 col-md-5 col-lg-4">
+				      <Card className="journey-card">
+				      <CardLink href="/summerjams-mcleodganj">
+				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/summer_jams.jpg" alt="Card image cap" />
+				        <CardBody className="journey-card-text">
+				          <CardText>A 3-day creative experience in a hamlet above McLeodGanj, Dharamkot. Have fun making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
+				          <CardLink href="/summerjams-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
+				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1">Book <br/>Now.</Badge>
+				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999 <br/>per person</Badge>
+				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
+				        </CardBody>
+				      </CardLink>
 				      </Card>
 				    </div>
 

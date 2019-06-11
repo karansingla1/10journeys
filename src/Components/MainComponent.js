@@ -76,16 +76,12 @@ class Main extends Component {
 			<MyNavbar2/>
 			<Switch>
 				<Route path = '/home' component={Homepage}/>
-				<Route exact path = '/destinations/:name' 
-						component={DestinationWithName}  />	
+				<Route exact path = '/destinations/:name' component={DestinationWithName}  />	
 				<Route path = '/blog' component = {Blog} />
 				<Route path = '/aboutus' component={About3}/>
-				<Route exact path = '/destinations/:name/:tripID'
-						component={TripWithID} />	
-				<Route exact path = '/creativejourney'
-						component={shortJourney} />	
-				<Route exact path = '/journeys'
-						component={journeys} />	
+				<Route exact path = '/destinations/:name/:tripID' component={TripWithID} />	
+				<Route exact path = '/creativejourney' component={shortJourney} />	
+				<Route exact path = '/journeys'component={journeys} />	
 				<Route exact path = '/summerjams-mcleodganj' component={summerjams_mcleodganj} />				
 				<Redirect to='/home' />	
 			</Switch>

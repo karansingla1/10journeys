@@ -167,7 +167,7 @@ cursor: pointer;
 .tagline1{
   max-width: 100%;
   font-size: 50px;
-  font-family: 'Harabara Bold', Arial, sans-serif;
+  font-fmily: 'Harabara Bold', Arial, sans-serif;
 }
 
 .tagline2{
@@ -180,7 +180,7 @@ cursor: pointer;
 .tagline3{
   max-width: 100%;
   font-size: 40px;
-  font-family: 'Harabara Bold', Arial, sans-serif;
+  font-faily: 'Harabara Bold', Arial, sans-serif;
 }
 
 
@@ -583,5 +583,19 @@ cursor: pointer;
 }
 
 .journey-card{
-  min-height: inherit;
+  height:100% !important;
+}
+
+.journey-card-text{
+  color: black !important;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
 }

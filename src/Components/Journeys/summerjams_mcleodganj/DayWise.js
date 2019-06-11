@@ -82,7 +82,6 @@ class DayWise extends Component {
 
                             <div className = 'activity-description'>
                                 <div className="row day-row">
-
                                     <div className="col-12 col-md-8">
                                         <b> Day 1 </b> <br/>
                                         <i>Give yourself a creative break, meet new people, pottery</i><br/><br/>
@@ -114,7 +113,7 @@ class DayWise extends Component {
 
                                     <div className="col-12 col-md-8">
                                         <b> Day 2 </b><br/>
-                                <i>Run a local cafe, a Thundering Waterfall, Beautful Sunset, Yoga</i><br/><br/>
+                                <i>Run a local cafe, a Thundering Waterfall, Beautiful Sunset, Yoga</i><br/><br/>
                                   Join a morning Yoga session along with the rising sun. Go for a walk around and have a healthy breakfast
                                   of your choice. <br/><br/>
                                   This day is also about getting the feel of running a local cafe, and giving wings to your thoughts 
