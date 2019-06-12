@@ -63,8 +63,8 @@ class shortJourney extends Component {
 			<>
 
 			<Helmet>
-				<title>Summer Jams in McLeodGanj - Join a trip</title>
-				
+				<title>Summer Jams in McLeodGanj - Join a trip in Himachal</title>
+				<meta property="og:image" content="/imgs/summerjams_mcleodganj/summer_jams.jpg" />
 			</Helmet>
 			<div className="page-top"> </div>
 			<div className="col-12 poster-container">
@@ -447,14 +447,14 @@ class shortJourney extends Component {
 			<div className = 'col-auto trip-info-titles'>Book Now</div>
 			<div className="col-12 mt-3" >
 		      <div className="row justify-content-center">
-		      	<div className="col-auto col-md-3 col-lg-2 align-self-center trip-dates"> 28th-30th June </div>
-		      	<div className = "col-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-28th-june/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+		      	<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates"> 28th-30th June </div>
+		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-28th-june/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
 				</div>
 		      </div>
 
 		      <div className="row justify-content-center">
-		      	<div className="col-auto col-md-3 col-lg-2  align-self-center trip-dates"> 5th - 7th July </div>
-		      	<div className = "col-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-5th-july-9a667/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+		      	<div className="col-6  col-sm-auto col-md-3 col-lg-2  align-self-center trip-dates"> 5th - 7th July </div>
+		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-5th-july-9a667/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
 <script src="https://js.instamojo.com/v1/button.js"></script></div>
 		      </div>
 
