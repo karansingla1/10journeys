@@ -6,7 +6,7 @@ import classnames from 'classnames';
 import FAQs from './FAQs.js';
 import DayWise from './DayWise.js'
 import { ReactTypeformEmbed } from 'react-typeform-embed';
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Badge, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 
 
@@ -447,15 +447,25 @@ class shortJourney extends Component {
 			<div className = 'col-auto trip-info-titles'>Book Now</div>
 			<div className="col-12 mt-3" >
 		      <div className="row justify-content-center">
-		      	<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates"> 28th-30th June </div>
+		      	<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates">
+		      	 <div className ="row">
+		      	 	<div className="col-12">28th-30th June</div>
+		   			<div className="col-12"><Badge pill color="warning" className="">5 slots remaining</Badge></div>
+		      	</div>
+		      	</div>
 		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-28th-june/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
 				</div>
 		      </div>
 
 		      <div className="row justify-content-center">
-		      	<div className="col-6  col-sm-auto col-md-3 col-lg-2  align-self-center trip-dates"> 5th - 7th July </div>
+				<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates">
+		      	 	<div className ="row">
+		      	 		<div className="col-12">5th-7th July</div>
+		   				<div className="col-12"><Badge pill color="success" className="">8 slots remaining</Badge></div>
+		      		</div>
+		      	</div>			      	
 		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-5th-july-9a667/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
-<script src="https://js.instamojo.com/v1/button.js"></script></div>
+				</div>
 		      </div>
 
 		    </div>
