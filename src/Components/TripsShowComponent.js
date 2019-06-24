@@ -89,9 +89,7 @@ class TripsShow extends Component{
 		else {
 			i=i+1;
 			current_date = trip.tripDate;
-			return(
-					
-
+			return(					
 					<div key = "trip.id" className='row mb-5'>
 						<div className='col-12 col-sm-2 mb-3 tripDates'> {getDate(current_date)} </div>
 						<div className='col-12 col-sm-10'>

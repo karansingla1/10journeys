@@ -450,7 +450,7 @@ class shortJourney extends Component {
 		      	<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates">
 		      	 <div className ="row">
 		      	 	<div className="col-12">28th-30th June</div>
-		   			<div className="col-12"><Badge pill color="warning" className="">5 slots remaining</Badge></div>
+		   			<div className="col-12"><Badge pill color="danger" className="">Bookings closed</Badge></div>
 		      	</div>
 		      	</div>
 		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-28th-june/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
@@ -461,7 +461,7 @@ class shortJourney extends Component {
 				<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates">
 		      	 	<div className ="row">
 		      	 		<div className="col-12">5th-7th July</div>
-		   				<div className="col-12"><Badge pill color="success" className="">8 slots remaining</Badge></div>
+		   				<div className="col-12"><Badge pill color="success" className="">7 slots remaining</Badge></div>
 		      		</div>
 		      	</div>			      	
 		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-5th-july-9a667/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>

@@ -81,7 +81,8 @@ class Main extends Component {
 				<Route path = '/aboutus' component={About3}/>
 				<Route exact path = '/destinations/:name/:tripID' component={TripWithID} />	
 				<Route exact path = '/creativejourney' component={shortJourney} />	
-				<Route exact path = '/journeys'component={journeys} />	
+				<Route exact path = '/journeys' component={journeys} />	
+				<Route path = '/journeys' component={journeys} />	
 				<Route exact path = '/summerjams-mcleodganj' component={summerjams_mcleodganj} />				
 				<Redirect to='/home' />	
 			</Switch>
