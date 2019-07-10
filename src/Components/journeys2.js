@@ -3,8 +3,6 @@ import {UncontrolledCarousel} from 'reactstrap';
 import { CardFooter, CardLink, CardImg, CardSubtitle, TabContent, TabPane, Nav, NavItem, NavLink,Collapse, CardBody, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import {Helmet} from 'react-helmet';
 import classnames from 'classnames';
-import { ReactTypeformEmbed } from 'react-typeform-embed';
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { Badge,Jumbotron, Container } from 'reactstrap';
 import {Checkbox, CheckboxGroup} from 'react-checkbox-group';
 import {connect} from 'react-redux';

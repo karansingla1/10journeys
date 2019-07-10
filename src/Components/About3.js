@@ -108,6 +108,7 @@ class About3 extends Component {
 							<div className="col-12 col-md-6 mb-4">
 						      <div className="card border-0 shadow">
 						      	<h5 className="card-title text-center mb-0">Karan, Co-Founder</h5>
+
 						      	<br/>
 						        <img src="/imgs/about/karan.jpg" className="card-img-top team-images" alt="..."/>
 						        <div className="card-body">

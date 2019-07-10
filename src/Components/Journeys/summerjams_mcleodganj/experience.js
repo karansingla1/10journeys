@@ -8,8 +8,35 @@ import DayWise from './DayWise.js'
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 import { Badge, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
+const items = [
+  {
+    src: '/imgs/summerjams_mcleodganj/ca.png',
+    altText: '',caption: '',header: ''
+  },
+];
 
+const tripglimpses = [
+  {src: '/imgs/summerjams_mcleodganj/glimpses/1.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/2.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/3.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/4.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/5.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/6.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/7.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/8.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/9.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/10.jpg',altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/glimpses/11.jpg',altText: '',caption: '',header: ''},
+  
+];
 
+const tripreviews = [
+  {src: '/imgs/summerjams_mcleodganj/reviews/1.jpg', altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/reviews/2.jpg', altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/reviews/3.jpg', altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/reviews/4.jpg', altText: '',caption: '',header: ''},
+  {src: '/imgs/summerjams_mcleodganj/reviews/5.jpg', altText: '',caption: '',header: ''},  
+];
 
 class shortJourney extends Component {
 	constructor(props) {
@@ -64,7 +91,7 @@ class shortJourney extends Component {
 
 			<Helmet>
 				<title>Summer Jams in McLeodGanj - Join a trip in Himachal</title>
-				<meta property="og:image" content="/imgs/summerjams_mcleodganj/summer_jams.jpg" />
+				<meta property="og:image" content="/imgs/summerjams_mcleodganj/ca.png" />
 			</Helmet>
 			<div className="page-top"> </div>
 			<div className="col-12 poster-container">
@@ -72,8 +99,7 @@ class shortJourney extends Component {
 			<div class="poster-container">
 
 			
-
-            <img className = "journey-image1 col-12" src="/imgs/summerjams_mcleodganj/summer_jams.jpg"/>
+			<UncontrolledCarousel items={items} />
 			 <div className = "form-container"> 
             <ReactTypeformEmbed
           popup
@@ -109,7 +135,7 @@ class shortJourney extends Component {
 			<div className="col-12 col-md-12">
 
 				<div className="row trip-info1 summary">
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 28th - 30th June; 5th - 7th July (2nights, 3 days) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 23rd - 25th August; 30th Aug - 1st Sept (2nights, 3 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/EfRwywxLa2q6KwLK9"> McLeodganj </a> by 9am  </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>Meals (Breakfast and Lunch), stays, creative activities, transport (McLeodganj - McLeodganj)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience. (Ages 18-35)</div>					
@@ -201,58 +227,7 @@ class shortJourney extends Component {
 								</div>		
 							</div>
 
-							<div className="row">
-								<div className ="col-12 activity-title">Run a cafe with a local</div>
-								<div className="col-12 activity-description">
-									Have you ever wondered or wanted to start your own cafe in the mountains? Well, you can get a taste of what it is, by spending time in local cafe and helping in the day to day operations, 
-									cooking your favourite dish or styling the cafe.
-								</div>
-								
-
-								<div className ="col-12">
-									<div className="row">
-										
-										<div className="col-12 col-sm-6 col-md-4">
-											<div className="row">
-												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe1.jpg"/>
-											</div>
-
-											<div className="row">
-												<div className = "col-12 activity-image-description">
-													Help the owner of a local cafe.
-												</div>
-											</div>
-										</div>
-
-										<div className="col-12 col-sm-6 col-md-4">
-											<div className="row">
-												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe2.jpg"/>
-											</div>
-
-											<div className="row">
-												<div className = "col-12 activity-image-description">
-													Can you cook a dish?
-												</div>
-											</div>
-										</div>
-
-										<div className="col-12 col-sm-6 col-md-4">
-											<div className="row">
-												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe3.jpg"/>
-											</div>
-
-											<div className="row">
-												<div className = "col-12 activity-image-description">
-													Maybe, help to style the cafe.
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>		
-							</div>
-
-
+							
 							<div className="row">
 								<div className ="col-12 activity-title">A beautiful waterfall, sunset and Yoga</div>
 								<div className="col-12 activity-description"> You are bound to feel much more fresh, energetic and one with the nature as you watch the sun disappear, jump into the cool waters of a waterfall, and do yoga with a view of the beautiful mountains.  To add to the fun, all this is along with an amazing bunch of new friends you make along the journey.
@@ -263,7 +238,7 @@ class shortJourney extends Component {
 									<div className="row">
 										<div className="col-12 col-sm-6 col-md-4">
 											<div className="row">
-												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/nature1.jpg"/>
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/glimpses/6.jpg"/>
 											</div>
 
 											<div className="row">
@@ -347,6 +322,59 @@ class shortJourney extends Component {
 									</div>
 								</div>		
 							</div>
+
+
+							<div className="row">
+								<div className ="col-12 activity-title">Run a cafe with a local</div>
+								<div className="col-12 activity-description">
+									Have you ever wondered or wanted to start your own cafe in the mountains? Well, you can get a taste of what it is, by spending time in local cafe and helping in the day to day operations, 
+									cooking your favourite dish or styling the cafe.
+								</div>
+								
+
+								<div className ="col-12">
+									<div className="row">
+										
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe1.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													Help the owner of a local cafe.
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe2.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													Can you cook a dish?
+												</div>
+											</div>
+										</div>
+
+										<div className="col-12 col-sm-6 col-md-4">
+											<div className="row">
+												<img className=" col-12 activity-image img-fluid img-resonsive" src="/imgs/summerjams_mcleodganj/cafe3.jpg"/>
+											</div>
+
+											<div className="row">
+												<div className = "col-12 activity-image-description">
+													Maybe, help to style the cafe.
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>		
+							</div>
+
 
 
 
@@ -441,6 +469,21 @@ class shortJourney extends Component {
 
 			</div>
 			</div>
+
+			<div className="row trip-info justify-content-center">
+			<div className="col-12 col-md-6">
+			<div className = 'col-12 trip-info-titles text-center title-trip-photos'>Glimpses from previous groups</div>
+			<UncontrolledCarousel items={tripglimpses}/>
+			</div>
+
+			<div className="col-12 col-md-6 mt-5 mt-md-0">
+			<div className = 'col-12 trip-info-titles text-center title-trip-photos'>What people felt about the experience?</div>
+			<UncontrolledCarousel items={tripreviews}/>
+			<div className = "col-12">
+			</div>
+			</div>
+			</div>
+
 			<div className="empty-div2" id="bookingOptions"/>
 
 			<div className="row trip-info justify-content-center" id="bookingOptions">
@@ -449,26 +492,26 @@ class shortJourney extends Component {
 
 			<div className="col-12 mt-3" >
 		      <div className="row justify-content-center">
-				<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates">
+				<div className="col-6 col-md-3 col-lg-3 align-self-center trip-dates">
 		      	 	<div className ="row">
-		      	 		<div className="col-12">5th-7th July</div>
+		      	 		<div className="col-12">23rd - 25th August</div>
 		   				<div className="col-12 col-md-3"><Badge pill color="success" className="">Bookings open</Badge></div>
 		      		</div>
 		      	</div>			      	
-		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-5th-july-9a667/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-23rd-august/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
 				</div>
 		      </div>
 
 		      <br/>
 
 		      <div className="row justify-content-center">
-		      	<div className="col-6 col-md-3 col-lg-2 align-self-center trip-dates">
+		      	<div className="col-6 col-md-4 col-lg-3 align-self-center trip-dates">
 		      	 <div className ="row">
-		      	 	<div className="col-12">28th-30th June</div>
-		   			<div className="col-12"><Badge pill color="danger" className="">Bookings closed</Badge></div>
+		      	 	<div className="col-12">30th Aug - 1st Sept</div>
+		   			<div className="col-12"><Badge pill color="success" className="">Bookings open</Badge></div>
 		      	</div>
 		      	</div>
-		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-28th-june/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-30th-august/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
 				</div>
 		      </div>
 
@@ -476,10 +519,7 @@ class shortJourney extends Component {
 
 			<div className="container">
 			<div className="col-12 mb-3 mt-3">
-		   	Still not sure? Show your interest by filling this form. We will get back to you right away.<br/> Feel free to call/Whatsapp (+91 9971526127 or +91 9463766651) for any queries.
-		   	</div>
-		   	<div className = "col-12">
-		   	<button className="col-auto btn booking-button1" onClick={this.openForm}> I AM INTERESTED </button>
+		   	Still not sure?<br/> Feel free to call/Whatsapp (+91 9971526127 or +91 9463766651) for any queries.
 		   	</div>
 		   	</div>
 

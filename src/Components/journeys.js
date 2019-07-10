@@ -42,6 +42,49 @@ class journeys extends Component {
 	        </Jumbotron>
 			
 			<div className = "container">
+				
+				<div className="row">
+					<div className = "col-12 month-name mt-4">
+						August 2019
+					</div>
+					<div className="scrolling-wrapper">
+					<div className="col-12 col-md-5 col-lg-4">
+				      <Card className="journey-card">
+				      <CardLink href="/summerjams-mcleodganj">
+				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/ca.png" alt="Card image cap" />
+				        <CardBody className="journey-card-text">
+				          <CardText>A 3-day creative adventure in a hamlet above McLeodGanj, Dharamkot. Exlore your creativity in the lap of nature while making pots in a studio, get a feel of running a cafe in the mountains, take a beautiful hike and sing your hearts out at a waterfall. </CardText>
+				          <div className="">
+				          	<CardLink href="/creativeadventures-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
+				          	<Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1">Bookings <br/>open.</Badge>
+				          	<Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999 <br/></Badge>
+				          </div>	
+				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
+				        </CardBody>
+				      </CardLink>
+				      </Card>
+				      </div>
+				    </div>
+				</div>
+
+				<div className="row">
+					<div className = "col-12 month-name mt-4">
+						July 2019
+					</div>	
+				    <div className="col-12 col-md-5 col-lg-4">
+				      <Card className="journey-card">
+				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/summer_jams.jpg" alt="Card image cap" />
+				        <CardBody className="journey-card-text">
+				          <CardText>A 3-day creative experience in a hamlet above McLeodGanj, Dharamkot. Have fun making pots in a studio, getting a feel of running a cafe with a local, 
+				          singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
+				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="danger" className="ml-2 mt-1">Bookings <br/>closed.</Badge>
+				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999/-</Badge>
+				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
+				        </CardBody>
+				      </Card>
+				    </div>
+				</div>
+
 				<div className="row">
 					<div className = "col-12 month-name mt-4">
 						June 2019
@@ -49,58 +92,31 @@ class journeys extends Component {
 					<div className="scrolling-wrapper">
 					<div className="col-10 col-md-5 col-lg-4">
 				      <Card className="journey-card">
-				      <CardLink href="/creativejourney">
 				        <CardImg top width="100%" src="/imgs/homepage/journey-poster.jpg" alt="Card image cap" />
 				        <CardBody className="journey-card-text">
 				          <CardText >A journey of creativity, learning new skills, connecting and building meaningful relationships, and being close to the nature.</CardText>
-				          <CardLink href="/creativejourney"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
 				          <Badge pill color="danger" className="ml-2 mt-1">Bookings <br/>closed.</Badge>
+				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 18000 <br/>per person</Badge>				          
 				          <CardFooter className=" mt-3">Contact us to book for your group.</CardFooter>	
 				        </CardBody>
-				       </CardLink> 
 				      </Card>
 				      </div>
 
 				      <div className="col-10 col-md-5 col-lg-4">
 				      <Card className="journey-card">
-				      <CardLink href="/summerjams-mcleodganj">
 				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/summer_jams.jpg" alt="Card image cap" />
 				        <CardBody className="journey-card-text">
 				          <CardText>A 3-day creative experience in a hamlet above McLeodGanj, Dharamkot. Have fun making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
-				          <CardLink href="/summerjams-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
-				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1">Book <br/>Now.</Badge>
+				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="danger" className="ml-2 mt-1">Bookings <br/>closed.</Badge>
 				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999 <br/>per person</Badge>
-				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
+				          <CardFooter className=" mt-3">Bookings closed.</CardFooter>	
 				        </CardBody>
-				      </CardLink>
 				      </Card>
 				    </div>
 				    </div>
 
 				</div>
 
-
-				<div className="row">
-					<div className = "col-12 month-name mt-4">
-						July 2019
-					</div>	
-				    <div className="col-10 col-md-5 col-lg-4">
-				      <Card className="journey-card">
-				      <CardLink href="/summerjams-mcleodganj">
-				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/summer_jams.jpg" alt="Card image cap" />
-				        <CardBody className="journey-card-text">
-				          <CardText>A 3-day creative experience in a hamlet above McLeodGanj, Dharamkot. Have fun making pots in a studio, running a cafe with a local, singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
-				          <CardLink href="/summerjams-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
-				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1">Book <br/>Now.</Badge>
-				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999 <br/>per person</Badge>
-				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
-				        </CardBody>
-				      </CardLink>
-				      </Card>
-				    </div>
-
-
-				</div>
 			</div>
 			          
 			</>

@@ -84,9 +84,9 @@ const Fullpage = () => (
 	            </div>
 	            </div>
 	            <div class="poster-container">
-            <img className = "journey-image1 col-12" src="/imgs/summerjams_mcleodganj/summer_jams.jpg"/>
+            <img className = "journey-image1 col-12" src="/imgs/summerjams_mcleodganj/ca.png"/>
 			  <div className="bottom-left1-homepage d-none d-md-block">
-			  	<Link to ='/summerjams-mcleodganj/'>
+			  	<Link to ='/creativeadventures-mcleodganj/'>
 			  	<button className="btn btn-primary booking-button"> BOOK NOW </button>
 			  	</Link>
 			  </div>
