@@ -8,7 +8,7 @@ import Blog from './Blog/BlogComponent.js';
 import TripDetails from './TripDetailsComponent.js';
 import MyNavbar2 from './MyNavbar2.js';
 import About3 from './About3.js';
-import shortJourney from './Journeys/shortjourney/shortJourney.js';
+//import shortJourney from './Journeys/shortjourney/shortJourney.js';
 import journeys from './journeys.js';
 import summerjams_mcleodganj from './Journeys/summerjams_mcleodganj/experience.js';
 
@@ -80,7 +80,7 @@ class Main extends Component {
 				<Route path = '/blog' component = {Blog} />
 				<Route path = '/aboutus' component={About3}/>
 				<Route exact path = '/destinations/:name/:tripID' component={TripWithID} />	
-				<Route exact path = '/creativejourney' component={shortJourney} />	
+				
 				<Route exact path = '/journeys' component={journeys} />	
 				<Route path = '/journeys' component={journeys} />	
 				<Route exact path = '/creativeadventures-mcleodganj' component={summerjams_mcleodganj} />				
