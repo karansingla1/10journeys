@@ -90,7 +90,7 @@ class shortJourney extends Component {
 			<>
 
 			<Helmet>
-				<title>Summer Jams in McLeodGanj - Join a trip in Himachal</title>
+				<title>Creative Adventures in McLeodGanj</title>
 				<meta property="og:image" content="/imgs/summerjams_mcleodganj/ca.png" />
 			</Helmet>
 			<div className="page-top"> </div>
