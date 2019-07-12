@@ -53,11 +53,14 @@ class journeys extends Component {
 				      <CardLink href="/summerjams-mcleodganj">
 				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/ca.png" alt="Card image cap" />
 				        <CardBody className="journey-card-text">
-				          <CardText>A 3-day creative adventure in a hamlet above McLeodGanj, Dharamkot. Exlore your creativity in the lap of nature while making pots in a studio, get a feel of running a cafe in the mountains, take a beautiful hike and sing your hearts out at a waterfall. </CardText>
-				          <div className="">
+				          <CardText>A 3-day creative adventure in a peaceful hamlet above McLeodGanj, Dharamkot. <br/><br/><i className = "mr-2 fa fa-calendar-o"/> 23rd - 25th August <br/> 
+				          		<i className = "mr-2 fa fa-calendar-o"/>30th Aug - 1st Sept </CardText>
+				          <div className="container">
+				          <div className="row">
 				          	<CardLink href="/creativeadventures-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
-				          	<Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1">Bookings <br/>open.</Badge>
-				          	<Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999 <br/></Badge>
+				          	<Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="success" className="ml-2 mt-1 align-self-center">Bookings <br/>open.</Badge>
+				          	<Badge pill color="info" className="ml-1 mt-1 align-self-center"> <i className = "fa fa-inr"/> 5999/-</Badge>
+				          </div>
 				          </div>	
 				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
 				        </CardBody>
@@ -77,8 +80,12 @@ class journeys extends Component {
 				        <CardBody className="journey-card-text">
 				          <CardText>A 3-day creative experience in a hamlet above McLeodGanj, Dharamkot. Have fun making pots in a studio, getting a feel of running a cafe with a local, 
 				          singing your hearts out, doing yoga and chilling at a waterfall. </CardText>
-				          <Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="danger" className="ml-2 mt-1">Bookings <br/>closed.</Badge>
-				          <Badge pill color="info" className="ml-2 mt-1"> <i className = "fa fa-inr"/> 5999/-</Badge>
+				          <div className="container">
+				          <div className="row">
+				          	<Badge href="/summerjams-mcleodganj/#bookingOptions" pill color="danger" className="ml-2 mt-1 align-self-center">Bookings <br/>closed.</Badge>
+				          	<Badge pill color="info" className="ml-2 mt-1 align-self-center"> <i className = "fa fa-inr"/> 5999/-</Badge>
+				          </div>
+				          </div>
 				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
 				        </CardBody>
 				      </Card>
