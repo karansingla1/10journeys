@@ -20,10 +20,12 @@ function Footer2(props){
                 <div className="col-11 offset-xs-1 col-sm-3">
                     <h5>Our Address</h5>
                     <address>
+                       The world is our playground.<br/>
 		              #1645, Sector 34-D, Chandigarh<br/>
 		              <i className="fa fa-phone fa-lg"></i>: +91 9971526127<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:connect@10Journeys.com">
                          connect@10journeys.com</a>
+
                     </address>
                 </div>
                 <div className="col-12 col-sm-5 align-self-center">

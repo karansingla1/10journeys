@@ -92,7 +92,7 @@ const Fullpage = () => (
 			  </div>
 
 			  <div className="bottom-left-homepage d-md-none">
-			  	<Link to ='summerjams-mcleodganj/'>
+			  	<Link to ='/creativeadventures-mcleodganj/'>
 			  	
 			  	<button className="btn btn-primary booking-button"> BOOK NOW </button>
 			  	</Link>
