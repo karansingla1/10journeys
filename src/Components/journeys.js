@@ -50,7 +50,7 @@ class journeys extends Component {
 					<div className="scrolling-wrapper">
 					<div className="col-12 col-md-5 col-lg-4">
 				      <Card className="journey-card">
-				      <CardLink href="/summerjams-mcleodganj">
+				      <CardLink href="/creativeadventures-mcleodganj">
 				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/ca.png" alt="Card image cap" />
 				        <CardBody className="journey-card-text">
 				          <CardText>A 3-day creative adventure in a peaceful hamlet above McLeodGanj, Dharamkot. <br/><br/>
