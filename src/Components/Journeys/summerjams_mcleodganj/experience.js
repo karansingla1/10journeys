@@ -135,12 +135,14 @@ class shortJourney extends Component {
 			<div className="col-12 col-md-12">
 
 				<div className="row trip-info1 summary">
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/> 23rd - 25th August; 30th Aug - 1st Sept (2nights, 3 days) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/>15th-18th August; 23rd - 25th August; 30th Aug - 1st Sept (2nights, 3 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/EfRwywxLa2q6KwLK9"> McLeodganj </a> by 9am  </div>
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>Meals (Breakfast and Lunch), stays, creative activities, transport (McLeodganj - McLeodganj)</div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>Meals (Breakfast and Dinner), stays, creative activities, transport (McLeodganj - McLeodganj)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience. (Ages 18-35)</div>					
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/>5999/person </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/> 5999/person (3 day experince) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/> 7999/person (4 day experince) </div>
 				</div>
+
 
 
 				<div>
@@ -435,7 +437,7 @@ class shortJourney extends Component {
 
 				<div className="row trip-info">
 					<div className = 'col-12 trip-info-titles'>Inclusions</div>
-					<div className = 'col-12 activity-description'> Once you reach McLeodGanj, meals (breakfast and lunch on all days), stays, 
+					<div className = 'col-12 activity-description'> Once you reach McLeodGanj, meals (breakfast and dinner on all days), stays, 
 					activities and transport costs are included. You will need to reach McLeodGanj
 					on your own. The journey will also end at McLeodGanj. We will be happy to help you with arrangements
 					and suggest you the best way to reach here from your current location.
@@ -491,11 +493,24 @@ class shortJourney extends Component {
 			<div className="col-12 text-center">Group size may vary from 2-10</div>
 
 			<div className="col-12 mt-3" >
+
+				<div className="row justify-content-center">
+		      	<div className="col-10 col-md-5 col-lg-3 align-self-center trip-dates">
+		      	 <div className ="row">
+		      	 	<div className="col-12">15th - 18th August (4 days)</div>
+		   			<div className="text-center col-12"><Badge pill color="success" className="">Bookings open</Badge></div>
+		      	</div>
+		      	</div>
+		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/creative-adventures-at-mcleodganj-15th-augus/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
+				</div>
+				</div>
+				<br/>
+
 		      <div className="row justify-content-center">
-				<div className="col-6 col-md-3 col-lg-3 align-self-center trip-dates">
+				<div className="col-10 col-md-5 col-lg-3 align-self-center trip-dates">
 		      	 	<div className ="row">
-		      	 		<div className="col-12">23rd - 25th August</div>
-		   				<div className="col-12 col-md-3"><Badge pill color="success" className="">Bookings open</Badge></div>
+		      	 		<div className="col-12">23rd - 25th August (3 days)</div>
+		   				<div className="text-center col-12 col-md-3"><Badge pill color="success" className="">Bookings open</Badge></div>
 		      		</div>
 		      	</div>			      	
 		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-23rd-august/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
@@ -505,14 +520,17 @@ class shortJourney extends Component {
 		      <br/>
 
 		      <div className="row justify-content-center">
-		      	<div className="col-6 col-md-4 col-lg-3 align-self-center trip-dates">
+		      	<div className="col-10 col-md-5 col-lg-3 align-self-center trip-dates">
 		      	 <div className ="row">
-		      	 	<div className="col-12">30th Aug - 1st Sept</div>
-		   			<div className="col-12"><Badge pill color="success" className="">Bookings open</Badge></div>
+		      	 	<div className="col-12">30th Aug - 1st Sept (3 days)</div>
+		   			<div className="text-center col-12"><Badge pill color="success" className="">Bookings open</Badge></div>
 		      	</div>
 		      	</div>
 		      	<div className = "col-7 col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-30th-august/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
 				</div>
+
+				
+
 		      </div>
 
 		    </div>

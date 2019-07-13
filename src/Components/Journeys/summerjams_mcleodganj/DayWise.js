@@ -147,7 +147,7 @@ class DayWise extends Component {
                                 <i>Local Culture, Free exploration, Goodbyes </i><br/><br/>
                                   On the final day, after having breakfast, you are free to spend time either in Dharamkot or McLeodganj 
                                   exploring the local culture. Officially, the trip ends here, but you are bound to leave 
-                                  with memories with the new friends you made, and hopefully the experience leaves you motivated and connected enought to plan another journey together.
+                                  with memories with the new friends you made, and hopefully the experience leaves you motivated and connected enough to plan another journey together.
                                   <br/><br/>The transport to McLeodganj will be arranged at a time convenient to you. You can immerse yourself into the local culture through
                                   stories, visiting the Dalai Lama temple, the Tibet Museum, local markets and engaging in folk show with the locals.
                                   You can also learn Tibetan cooking by making your own momos and soups. You can also visit the many interesting initiatives by the locals.
@@ -167,6 +167,11 @@ class DayWise extends Component {
                                       </Card>
                                     </div>
                                 </div> 
+
+                                <br/>
+
+                                <b>Note:</b> For the 4-day experience, we will visiting Norbulingka Institute and engaging in 
+                                Tibetan Art forms on the third day. 
                             </div>
                          </div>
             </>
