@@ -510,7 +510,7 @@ class shortJourney extends Component {
 				<div className="col-10 col-md-5 col-lg-3 align-self-center trip-dates">
 		      	 	<div className ="row">
 		      	 		<div className="col-12">23rd - 25th August (3 days)</div>
-		   				<div className="text-center col-12 col-md-3"><Badge pill color="success" className="">Bookings open</Badge></div>
+		   				<div className= "text-center col-12"><Badge pill color="success" className="">Bookings open</Badge></div>
 		      		</div>
 		      	</div>			      	
 		      	<div className = "col-7 col-sm-auto col-md-3 col-lg-2"><a href="https://www.instamojo.com/10journeys/summer-jams-mcleodganj-23rd-august/" rel="im-checkout" data-behaviour="remote" data-style="flat" data-text="Book Now"></a>
