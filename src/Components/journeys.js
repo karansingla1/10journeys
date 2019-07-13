@@ -53,10 +53,10 @@ class journeys extends Component {
 				      <CardLink href="/creativeadventures-mcleodganj">
 				        <CardImg top width="100%" src="/imgs/summerjams_mcleodganj/ca.png" alt="Card image cap" />
 				        <CardBody className="journey-card-text">
-				          <CardText>A 3-day creative adventure in a peaceful hamlet above McLeodGanj, Dharamkot. <br/><br/>
-				          		<i className = "mr-2 fa fa-calendar-o"/> 15th - 18th August <br/> 	
-				          		<i className = "mr-2 fa fa-calendar-o"/> 23rd - 25th August <br/> 
-				          		<i className = "mr-2 fa fa-calendar-o"/>30th Aug - 1st Sept </CardText>
+				          <CardText>A creative adventure in a peaceful hamlet above McLeodGanj, Dharamkot. <br/><br/>
+				          		<i className = "mr-2 fa fa-calendar-o"/> 15th - 18th August (4 days) <br/> 	
+				          		<i className = "mr-2 fa fa-calendar-o"/> 23rd - 25th August (3 days)<br/> 
+				          		<i className = "mr-2 fa fa-calendar-o"/>30th Aug - 1st Sept (4 days)</CardText>
 				          <div className="container">
 				          <div className="row">
 				          	<CardLink href="/creativeadventures-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>

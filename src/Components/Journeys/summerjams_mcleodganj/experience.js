@@ -135,12 +135,12 @@ class shortJourney extends Component {
 			<div className="col-12 col-md-12">
 
 				<div className="row trip-info1 summary">
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/>15th-18th August; 23rd - 25th August; 30th Aug - 1st Sept (2nights, 3 days) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-calendar-o"/>15th-18th August (3nights,4days); 23rd - 25th August; 30th Aug - 1st Sept (2nights, 3 days) </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-map-marker"/>Reach <a href="https://goo.gl/maps/EfRwywxLa2q6KwLK9"> McLeodganj </a> by 9am  </div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-list"/>Meals (Breakfast and Dinner), stays, creative activities, transport (McLeodganj - McLeodganj)</div>
 					<div className="col-12 mb-2"><i className = "mr-2 fa fa-group"/>Small group of 8-10 people for a meaningful experience. (Ages 18-35)</div>					
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/> 5999/person (3 day experince) </div>
-					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/> 7999/person (4 day experince) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/> 5999/person (3 day experience) </div>
+					<div className="col-12 mb-2"><i className = "mr-2 fa fa-inr"/> 7999/person (4 day experience) </div>
 				</div>
 
 
@@ -171,7 +171,7 @@ class shortJourney extends Component {
 			                <div className="row trip-info">
 					<div className = 'col-12 trip-info-titles'>The experience</div>
 						<div className = 'col-12 activity-description'>
-						A 3 day experience in a hamlet above McLeodGanj named Dharamkot full of fun activities and getting lost in the nature.
+						A 3/4 day experience in a hamlet above McLeodGanj named Dharamkot full of fun activities and getting lost in the nature.
 						
 							You will have all the fun in the world making pots in a studio, running a cafe with a local, singing your hearts out, watching beautiful sunsets, doing yoga and chilling at a waterfall.
 						 	You will be with a group of around 10 young people, exploring and making memories together.

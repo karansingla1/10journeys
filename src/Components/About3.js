@@ -110,7 +110,7 @@ class About3 extends Component {
 						      	<h5 className="card-title text-center mb-0">Karan, Co-Founder</h5>
 
 						      	<br/>
-						        <img src="/imgs/about/karan.jpg" className="card-img-top team-images" alt="..."/>
+						        <a href="https://www.linkedin.com/in/karansingla/"><img src="/imgs/about/karan.jpg" className="card-img-top team-images" alt="..."/></a>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
 							          	<p className="text-center"><b> </b></p>
@@ -127,7 +127,7 @@ class About3 extends Component {
 						      <div className="card border-0 shadow">
 						      	<h5 className="card-title text-center mb-0">Romit, Co-Founder</h5>
 						      	<br/>
-						        <img src="/imgs/about/romit.jpg" className="card-img-top team-images" alt="..."/>
+						        <a href="https://www.linkedin.com/in/romit-singla-30248b82/"><img src="/imgs/about/romit.jpg" className="card-img-top team-images" alt="..."/></a>
 						        <div className="card-body">
 						          	<div className="card-text text-black-50">
 							          	<p className="text-center"><b> </b></p>
