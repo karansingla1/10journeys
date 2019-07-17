@@ -56,7 +56,7 @@ class journeys extends Component {
 				          <CardText>A creative adventure in a peaceful hamlet above McLeodGanj, Dharamkot. <br/><br/>
 				          		<i className = "mr-2 fa fa-calendar-o"/> 15th - 18th August (4 days) <br/> 	
 				          		<i className = "mr-2 fa fa-calendar-o"/> 23rd - 25th August (3 days)<br/> 
-				          		<i className = "mr-2 fa fa-calendar-o"/>30th Aug - 1st Sept (4 days)</CardText>
+				          		<i className = "mr-2 fa fa-calendar-o"/>30th Aug - 1st Sept (3 days)</CardText>
 				          <div className="container">
 				          <div className="row">
 				          	<CardLink href="/creativeadventures-mcleodganj"><Button className="btn btn-primary check-itinerary-button">Check itinerary</Button></CardLink>
@@ -88,7 +88,7 @@ class journeys extends Component {
 				          	<Badge pill color="info" className="ml-2 mt-1 align-self-center"> <i className = "fa fa-inr"/> 5999/-</Badge>
 				          </div>
 				          </div>
-				          <CardFooter className=" mt-3">Bookings open.</CardFooter>	
+				          <CardFooter className=" mt-3">Bookings closed.</CardFooter>	
 				        </CardBody>
 				      </Card>
 				    </div>
